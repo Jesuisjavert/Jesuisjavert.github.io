@@ -9,7 +9,7 @@
     <atom:link href="https://jesuisjavert.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>강동훈의 블로그에 오신 것을 환영합니다.</description>
-    <pubDate>Thu, 17 Dec 2020 17:56:24 GMT</pubDate>
+    <pubDate>Thu, 17 Dec 2020 20:02:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -29,8 +29,6 @@
       
       
       <category domain="https://jesuisjavert.github.io/categories/backend/">backend</category>
-      
-      <category domain="https://jesuisjavert.github.io/categories/backend/django/">django</category>
       
       
       <category domain="https://jesuisjavert.github.io/tags/backend/">backend</category>
@@ -65,8 +63,6 @@
       
       
       <category domain="https://jesuisjavert.github.io/categories/etc/">etc</category>
-      
-      <category domain="https://jesuisjavert.github.io/categories/etc/markdown/">markdown</category>
       
       
       <category domain="https://jesuisjavert.github.io/tags/etc/">etc</category>

@@ -3,43 +3,43 @@
 
 
     <url>
-        <loc>https://jesuisjavert.github.io/tags/markdown/</loc>
-        <lastmod>2020-12-17T17:58:13.133Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://jesuisjavert.github.io/tags/etc/</loc>
-        <lastmod>2020-12-17T17:58:13.133Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://jesuisjavert.github.io/tags/aws/</loc>
-        <lastmod>2020-12-17T17:56:24.554Z</lastmod>
+        <lastmod>2020-12-17T20:02:08.565Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jesuisjavert.github.io/tags/was/</loc>
-        <lastmod>2020-12-17T17:56:24.554Z</lastmod>
+        <lastmod>2020-12-17T20:02:08.565Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jesuisjavert.github.io/tags/django/</loc>
-        <lastmod>2020-12-17T17:56:24.554Z</lastmod>
+        <lastmod>2020-12-17T20:02:08.565Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jesuisjavert.github.io/tags/backend/</loc>
-        <lastmod>2020-12-17T17:56:24.554Z</lastmod>
+        <lastmod>2020-12-17T20:02:08.565Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/markdown/</loc>
+        <lastmod>2020-12-17T20:02:01.099Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/etc/</loc>
+        <lastmod>2020-12-17T20:02:01.099Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
