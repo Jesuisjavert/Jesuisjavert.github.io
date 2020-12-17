@@ -10783,7 +10783,7 @@ article.media a {
   color: inherit;
 }
 article.media a:hover {
-  color: #fcee09;
+  color: #848484;
 }
 article.media .image {
   width: 64px;
@@ -10977,7 +10977,7 @@ a.article-nav-next span {
   }
 }
 .navbar-logo img {
-  max-height: 1.75rem;
+  max-height: 3rem;
 }
 @media screen and (max-width: 768px) {
   footer.footer .level-start {
@@ -10995,7 +10995,7 @@ footer.footer .level-end .field {
   }
 }
 .footer-logo img {
-  max-height: 1.75rem;
+  max-height: 3rem;
 }
 .pagination {
   margin-top: 1.5rem;
@@ -11354,8 +11354,8 @@ figure.highlight .section {
   color: $white-invert;
 }
 .widget .tags .tag:first-child {
-  background: #fcee09;
-  color: #121617;
+  background: #363636;
+  color: #fff;
 }
 .widget .tags .tag:last-child {
   background: $light-grey;

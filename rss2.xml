@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>JesuisJavert</title>
+    <link>https://jesuisjavert.github.io/</link>
+    
+    <atom:link href="https://jesuisjavert.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>강동훈의 블로그에 오신 것을 환영합니다.</description>
+    <pubDate>Thu, 17 Dec 2020 17:56:24 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>[Django] Django Project를 시작해보자</title>
+      <link>https://jesuisjavert.github.io/2020/12/14/first-post/</link>
+      <guid>https://jesuisjavert.github.io/2020/12/14/first-post/</guid>
+      <pubDate>Mon, 14 Dec 2020 12:55:22 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h3 id=&quot;this-is-my-first-article&quot;&gt;&lt;a href=&quot;#this-is-my-first-article&quot; class=&quot;headerlink&quot; title=&quot;this is my first article&quot;&gt;&lt;/a&gt;this is my fir</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h3 id="this-is-my-first-article"><a href="#this-is-my-first-article" class="headerlink" title="this is my first article"></a>this is my first article</h3>]]></content:encoded>
+      
+      
+      <category domain="https://jesuisjavert.github.io/categories/backend/">backend</category>
+      
+      <category domain="https://jesuisjavert.github.io/categories/backend/django/">django</category>
+      
+      
+      <category domain="https://jesuisjavert.github.io/tags/backend/">backend</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/django/">django</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/was/">was</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/aws/">aws</category>
+      
+      
+      <comments>https://jesuisjavert.github.io/2020/12/14/first-post/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>[Template] Markdown 작성 Guideline</title>
+      <link>https://jesuisjavert.github.io/2020/12/14/markdown-test/</link>
+      <guid>https://jesuisjavert.github.io/2020/12/14/markdown-test/</guid>
+      <pubDate>Mon, 14 Dec 2020 12:55:22 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h1&gt; MarkDown 문서 Test&lt;/h1&gt;
+
+&lt;h3 id=&quot;샾을-세개하면-서브-제목이-들어갑니다&quot;&gt;&lt;a href=&quot;#샾을-세개하면-서브-제목이-들어갑니다&quot; class=&quot;headerlink&quot; title=&quot;샾을 세개하면 서브 제목이 들어갑니다&quot;&gt;&lt;/</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h1> MarkDown 문서 Test</h1><h3 id="샾을-세개하면-서브-제목이-들어갑니다"><a href="#샾을-세개하면-서브-제목이-들어갑니다" class="headerlink" title="샾을 세개하면 서브 제목이 들어갑니다"></a>샾을 세개하면 서브 제목이 들어갑니다</h3><blockquote><p>요렇게 하면 강조가 됩니다</p></blockquote><p>이런식으로 글을 작성합니다.</p>]]></content:encoded>
+      
+      
+      <category domain="https://jesuisjavert.github.io/categories/etc/">etc</category>
+      
+      <category domain="https://jesuisjavert.github.io/categories/etc/markdown/">markdown</category>
+      
+      
+      <category domain="https://jesuisjavert.github.io/tags/etc/">etc</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/markdown/">markdown</category>
+      
+      
+      <comments>https://jesuisjavert.github.io/2020/12/14/markdown-test/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
