@@ -9,15 +9,22 @@
 
 
     <url>
-        <loc>https://jesuisjavert.github.io/categories/backend/</loc>
-        <lastmod>2020-12-17T20:02:08.565Z</lastmod>
+        <loc>https://jesuisjavert.github.io/categories/markdown/etc/</loc>
+        <lastmod>2020-12-23T08:40:04.338Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://jesuisjavert.github.io/categories/etc/</loc>
-        <lastmod>2020-12-17T20:02:01.099Z</lastmod>
+        <loc>https://jesuisjavert.github.io/categories/markdown/</loc>
+        <lastmod>2020-12-23T08:40:04.338Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/categories/backend/</loc>
+        <lastmod>2020-12-17T20:02:08.565Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
