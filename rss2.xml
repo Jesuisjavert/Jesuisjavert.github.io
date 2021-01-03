@@ -9,26 +9,30 @@
     <atom:link href="https://jesuisjavert.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>강동훈의 블로그에 오신 것을 환영합니다.</description>
-    <pubDate>Thu, 17 Dec 2020 20:02:08 GMT</pubDate>
+    <pubDate>Sun, 03 Jan 2021 15:19:08 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
-      <title>[Django] Django Project를 시작해보자</title>
+      <title>[Django] Django - Vue를 AWS에 배포해보자</title>
       <link>https://jesuisjavert.github.io/2020/12/14/first-post/</link>
       <guid>https://jesuisjavert.github.io/2020/12/14/first-post/</guid>
       <pubDate>Mon, 14 Dec 2020 12:55:22 GMT</pubDate>
       
         
         
-      <description>&lt;h3 id=&quot;this-is-my-first-article&quot;&gt;&lt;a href=&quot;#this-is-my-first-article&quot; class=&quot;headerlink&quot; title=&quot;this is my first article&quot;&gt;&lt;/a&gt;this is my fir</description>
+      <description>&lt;h3 id=&quot;클라우드-상의-Django-AWS-시스템-아키텍쳐&quot;&gt;&lt;a href=&quot;#클라우드-상의-Django-AWS-시스템-아키텍쳐&quot; class=&quot;headerlink&quot; title=&quot;클라우드 상의 Django - AWS 시스템 아키텍쳐&quot;&gt;&lt;/a&gt;클라우</description>
         
       
       
       
-      <content:encoded><![CDATA[<h3 id="this-is-my-first-article"><a href="#this-is-my-first-article" class="headerlink" title="this is my first article"></a>this is my first article</h3>]]></content:encoded>
+      <content:encoded><![CDATA[<h3 id="클라우드-상의-Django-AWS-시스템-아키텍쳐"><a href="#클라우드-상의-Django-AWS-시스템-아키텍쳐" class="headerlink" title="클라우드 상의 Django - AWS 시스템 아키텍쳐"></a>클라우드 상의 Django - AWS 시스템 아키텍쳐</h3>]]></content:encoded>
       
       
       <category domain="https://jesuisjavert.github.io/categories/backend/">backend</category>
+      
+      <category domain="https://jesuisjavert.github.io/categories/backend/frontend/">frontend</category>
+      
+      <category domain="https://jesuisjavert.github.io/categories/backend/frontend/AWS/">AWS</category>
       
       
       <category domain="https://jesuisjavert.github.io/tags/backend/">backend</category>
@@ -37,7 +41,15 @@
       
       <category domain="https://jesuisjavert.github.io/tags/was/">was</category>
       
-      <category domain="https://jesuisjavert.github.io/tags/aws/">aws</category>
+      <category domain="https://jesuisjavert.github.io/tags/frontend/">frontend</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/vue/">vue</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/webserver/">webserver</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/AWS/">AWS</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/cloud/">cloud</category>
       
       
       <comments>https://jesuisjavert.github.io/2020/12/14/first-post/#disqus_thread</comments>
