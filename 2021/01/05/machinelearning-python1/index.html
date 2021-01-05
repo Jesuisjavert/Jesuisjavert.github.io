@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>[MachineLearning] 머신러닝야학 강의 핵심 요약노트 - JesuisJavert</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="JesuisJavert"><meta name="msapplication-TileImage" content="/img/favicon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="JesuisJavert"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta description="강동훈의 기술 블로그"><meta property="og:type" content="blog"><meta property="og:title" content="Jesuisjavert"><meta property="og:url" content="https://jesuisjavert.github.io/"><meta property="og:site_name" content="Jesuisjavert"><meta property="og:description" content="강동훈의 기술 블로그"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://jesuisjavert.github.io/img/logo.png"><meta property="article:published_time" content="2021-01-05T04:11:18.000Z"><meta property="article:modified_time" content="2021-01-05T07:44:19.718Z"><meta property="article:author" content="Kang Donghoon"><meta property="article:tag" content="MachineLearning"><meta property="article:tag" content="Python"><meta property="article:tag" content="Tensorflow"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/logo.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://jesuisjavert.github.io/2021/01/05/machinelearning-python1/"},"headline":"JesuisJavert","image":["https://jesuisjavert.github.io/gallery/thumbnail-web.png"],"datePublished":"2021-01-05T04:11:18.000Z","dateModified":"2021-01-05T07:44:19.718Z","author":{"@type":"Person","name":"Kang Donghoon"},"description":"2021 머신러닝 야학 2기 개강평소 SSAFY 에서부터 관심이 생겼던 Machine Learning 분야에 새롭게 도전해 보았다.친구들이 딥러닝 프로젝트로 Image Scanning 이나 Classification 기술을 도입해서얼굴 관상 보기 프로젝트라던지, 물고기 종류 분류라던지 신박한 기술들을 많이 보여줬었는데,평소 자연어 처리에 관심 많았던지라,"}</script><link rel="canonical" href="https://jesuisjavert.github.io/2021/01/05/machinelearning-python1/"><link rel="alternate" href="https://jesuisjavert.github.io/rss2.xml" title="JesuisJavert" type="application/atom+xml"><link rel="icon" href="/img/favicon.png"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.png" alt="JesuisJavert" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/about">About</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/jesuisjavert"><i class="fab fa-github"></i></a><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Instagram" href="https://www.instagram.com/unialike"><i class="fab fa-instagram"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="카탈로그" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time datetime="2021-01-05T04:11:18.000Z" title="2021-01-05T04:11:18.000Z">2021-01-05</time>&nbsp;게시 됨</span><span class="level-item"><time datetime="2021-01-05T07:44:19.718Z" title="2021-01-05T07:44:19.718Z">2021-01-05</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/MachineLearning/">MachineLearning</a><span> / </span><a class="link-muted" href="/categories/MachineLearning/Python/">Python</a><span> / </span><a class="link-muted" href="/categories/MachineLearning/Python/Tensorflow/">Tensorflow</a></span><span class="level-item">11분안에 읽기 (약 1628 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile">[MachineLearning] 머신러닝야학 강의 핵심 요약노트</h1><div class="content"><p><img src="/gallery/post/machine-learning0.png" alt="2021 머신러닝 야학 2기 개강!"></p>
+<h2 id="2021-머신러닝-야학-2기-개강"><a href="#2021-머신러닝-야학-2기-개강" class="headerlink" title="2021 머신러닝 야학 2기 개강"></a>2021 머신러닝 야학 2기 개강</h2><p>평소 SSAFY 에서부터 관심이 생겼던 Machine Learning 분야에 새롭게 도전해 보았다.<br>친구들이 딥러닝 프로젝트로 Image Scanning 이나 Classification 기술을 도입해서<br>얼굴 관상 보기 프로젝트라던지, 물고기 종류 분류라던지 신박한 기술들을 많이 보여줬었는데,<br>평소 자연어 처리에 관심 많았던지라, 그동안 배워왔던 빅데이터 기술들을 좀 더 딥하게 적용시켜 보고 싶어서<br>머신러닝 야학 2기를 신청하게 되었다.</p>
+<p><img src="/gallery/post/machine-learning1.png" alt="내가 직면한 문제를 해결하려는 절실함이 필요하다!"></p>
+<hr>
+<h2 id="인공지능을-구현하는-기술-머신러닝이란"><a href="#인공지능을-구현하는-기술-머신러닝이란" class="headerlink" title="인공지능을 구현하는 기술, 머신러닝이란?"></a>인공지능을 구현하는 기술, 머신러닝이란?</h2><p>기계학습이란? 기계를 학습시켜, 인간의 판단을 위임하기 위해서 고안된 기술!</p>
+<p>전염병판정, 기계번역, 자율주행 등 많은 분야에서 활용되고 있다.</p>
+<p>머신러닝의 가장 큰 키워드는 바로 <strong>인간의 결정</strong> 을 도와 준 다는 것.</p>
+<p>결정 = 비교 + 선택</p>
+<p>여러가지의 선택지가 있을 때, 객관적인 <strong>데이터</strong>를 기계에게 학습시켜 <strong>분석</strong>하여, 인간의 빠르고 정확한 <strong>결정</strong>을 도와주는 것.</p>
+<p><img src="/gallery/post/machine-learning2.png" alt="Google Teachable Machine을 이용해 곰돌이를 학습시켜 보았다."></p>
+<p>여러 장의 사진을 학습시켜, 그 결과가 내가 정한 클래스에 속하는지 쉽게 이용해 볼 수 있는 사이트가 있다. 역시 갓구글..<br><a target="_blank" rel="external nofollow noopener noreferrer" href="https://teachablemachine.withgoogle.com/">https://teachablemachine.withgoogle.com/</a></p>
+<p>머신러닝야학에선 이 google teachable machine에서 만들어준 model을<br>간단한 App으로 만들어주는 활용 예제도 존재했다.</p>
+<p><img src="/gallery/post/machine-learning3.png" alt="곰돌이 인지, 스프인지 판단해주는 기특한 녀석"></p>
+<p>많은 사람들이 머신러닝에 대해 고민하고있고, 자신만의 기획서를 작성하기도 한다. 프로그래머로서 고민하는 것보다, 자신의 문제를 먼저 어떻게 해결할지 <strong>궁리</strong> 해보라는 강의의 포인트에 맞게, 남녀노소 다양한 사람들의 아이디어가 살아 숨쉬는 공간인 것 같다.</p>
+<p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://bit.ly/ml-my-plan/">https://bit.ly/ml-my-plan/</a></p>
+<hr>
+<h2 id="좀-더-본격적으로-머신러닝을-시작해보자"><a href="#좀-더-본격적으로-머신러닝을-시작해보자" class="headerlink" title="좀 더 본격적으로 머신러닝을 시작해보자."></a>좀 더 본격적으로 머신러닝을 시작해보자.</h2><p>아이디어를 현실화 하기 위해선, 데이터가 필요하다.<br>그리고 그 데이터는 가장 효율적으로 2가지로 전달가능하다. 표 (Table) 과 좌표평면(Coordinates)</p>
+<p>표라는 것을 좀 더 자세히 보자.<br>표는 가로(row) 와 세로 (column), 즉 행과 열로 구성되어 있다.</p>
+<p>이 표는 다양한 분야에서 다양한 이름으로 불리는데,<br>특히 데이터 분야에서는 테이블을 데이터셋(DataSet)이라고 부르고, 주로 행의 데이터를 관측치, 열을 특성 및 변수라고 지칭한다.</p>
+<p><img src="/gallery/post/machine-learning4.png" alt="Table의 요소를 가리키는 많은 이름들"></p>
+<hr>
+<h2 id="독립변수와-종속변수"><a href="#독립변수와-종속변수" class="headerlink" title="독립변수와 종속변수"></a>독립변수와 종속변수</h2><p>변수(Variable)란? 즉, 변화하는 수!<br>데이터셋에선 ‘열’을 의미한다.</p>
+<p><strong>독립변수</strong>란 <strong>원인</strong>이 되는 열, <strong>종속변수</strong>는 그 원인으로 인해 <strong>결과</strong>가 되는 열이라고 이해하면 쉽다.</p>
+<p>예를 들어 온도가 20도 일때, 맥주의 판매량이 40병이라는 데이터가 있다면,<br>온도라는 원인에 의해 맥주의 판매량이 영향을 준다고 가정 했을때,<br>온도는 결과에 영향을 받지 않는 독립적인 사건이지만, 결과는 원인에 종속되어서 발생한 사건이다.</p>
+<p>물론 세상의 모든 데이터는 인과관계로 존재하지 않는다. 다양한 상관관계가 있을 수 있고, 인과관계는 그 중 하나일 것이다!</p>
+<blockquote>
+<p>독립변수는 원인이다.<br>종속변수는 결과다.<br>독립변수와 종속변수의 관계를 인과관계라고 한다.<br>인과관계는 상관관계에 포함된다.</p>
+</blockquote>
+<hr>
+<h2 id="머신러닝의-분류"><a href="#머신러닝의-분류" class="headerlink" title="머신러닝의 분류"></a>머신러닝의 분류</h2><p><img src="/gallery/post/machine-learning5.png" alt="머신러닝의 다양한 분야들"></p>
+<h3 id="지도-학습-Supervised-Learning"><a href="#지도-학습-Supervised-Learning" class="headerlink" title="지도 학습 (Supervised Learning)"></a>지도 학습 (Supervised Learning)</h3><blockquote>
+<p>정답이 있는 문제를 해결하는 것</p>
+</blockquote>
+<p>보통은 과거의 데이터를 통해서 결과를 예측하는 것에 사용된다. (ex) 온도와 아이스크림 판매량 간의 원인-결과 분석을 통해 판매량을 예측하는 모델)</p>
+<ol>
+<li><p>분류 (Classification)<br>예측하고자 하는 종속변수가 <strong>이름</strong>일 때, 보통 사용됨.<br>ex) 공부시간과 합격여부, 키,몸무게와 현역-공익, 메일 발신인과 스팸메일 여부 등</p>
+</li>
+<li><p>회귀 (Regression)<br>예측하고자 하는 종속변수가 <strong>숫자</strong>일 때, 보통 사용됨.<br>ex) 공부시간과 시험점수의 상관관계, 역세권과 집 값, 자동차 속도와 안전성, 나이와 키 등</p>
+</li>
+</ol>
+<h3 id="비지도학습-Unsupervised-Learning"><a href="#비지도학습-Unsupervised-Learning" class="headerlink" title="비지도학습 (Unsupervised Learning)"></a>비지도학습 (Unsupervised Learning)</h3><blockquote>
+<p>관찰을 통해 새로운 의미나 관계를 밝혀내는 것</p>
+</blockquote>
+<ol>
+<li><p>군집화 (Clustering)<br>군집화란 비슷한 행을 찾아서 그룹을 만드는 것<br>ex) 좌표평면내의 비슷한 위치의 좌표값들을 여러 단위의 군집(Cluster) 단위로 나누어 그룹핑하는 것</p>
+</li>
+<li><p>연관 규칙 학습(Association rule learning)<br>서로 관련이 있는 특성을 그룹화 해주는 것<br>ex) 쇼핑몰 내의 상품추천, 영화추천, 드라마 추천 등</p>
+</li>
+</ol>
+<blockquote>
+<p>관측치를 그룹핑 해주는것 -&gt; 군집화<br>특성을 그룹핑 해주는 것 -&gt; 연관 규칙 학습</p>
+</blockquote>
+<p><img src="/gallery/post/machine-learning6.png" alt="지도학습 vs 비지도학습"></p>
+<h3 id="강화학습-Reinforcement-Learning"><a href="#강화학습-Reinforcement-Learning" class="headerlink" title="강화학습 (Reinforcement Learning)"></a>강화학습 (Reinforcement Learning)</h3><blockquote>
+<p>더 좋은 보상을 받기 위해서 수련하는 것</p>
+</blockquote>
+<p><img src="/gallery/post/machine-learning7.png" alt="강화학습하는 수달(귀엽다)"></p>
+<p>현재의 상태를 관찰 -&gt; 관찰에 따라 행동 -&gt; 보상을 더 받을 수 있도록 Agent가 학습하는 일련의 과정을 반복하는 것.</p>
+<h2 id="머신러닝-지도"><a href="#머신러닝-지도" class="headerlink" title="머신러닝 지도"></a>머신러닝 지도</h2><p><img src="/gallery/post/machine-learning8.png" alt="당신이 필요한 머신러닝 Roadmap"></p>
+<p>다음과 같은 판단 절차로 내게 필요한 머신러닝의 기법이 무엇인지 판단 할 수 있다.</p>
+<hr>
+<p>출처)</p>
+<p>생활코딩<br><a target="_blank" rel="external nofollow noopener noreferrer" href="https://opentutorials.org/course/4548/28891">https://opentutorials.org/course/4548/28891</a></p>
+<p>포스트 내의 삽화와 자료들은 생활코딩의 저작권 정책에 따라 작성되었습니다.</p>
+</div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/MachineLearning/">MachineLearning</a><a class="link-muted mr-2" rel="tag" href="/tags/Python/">Python</a><a class="link-muted mr-2" rel="tag" href="/tags/Tensorflow/">Tensorflow</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2020/12/12/markdown-grammar/"><span class="level-item">[Markdown] Markdown 문서를 보기 좋게 작성해보자</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">댓글</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+            this.page.url = 'https://jesuisjavert.github.io/2021/01/05/machinelearning-python1/';
+            this.page.identifier = '2021/01/05/machinelearning-python1/';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');  
+            s.src = '//' + 'jesuisjavert' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();</script></div></div></div><!--!--><div class="column column-right is-4-tablet is-4-desktop is-4-widescreen  order-3 is-sticky"><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">카탈로그</h3><ul class="menu-list"><li><a class="level is-mobile" href="#2021-머신러닝-야학-2기-개강"><span class="level-left"><span class="level-item">1</span><span class="level-item">2021 머신러닝 야학 2기 개강</span></span></a></li><li><a class="level is-mobile" href="#인공지능을-구현하는-기술-머신러닝이란"><span class="level-left"><span class="level-item">2</span><span class="level-item">인공지능을 구현하는 기술, 머신러닝이란?</span></span></a></li><li><a class="level is-mobile" href="#좀-더-본격적으로-머신러닝을-시작해보자"><span class="level-left"><span class="level-item">3</span><span class="level-item">좀 더 본격적으로 머신러닝을 시작해보자.</span></span></a></li><li><a class="level is-mobile" href="#독립변수와-종속변수"><span class="level-left"><span class="level-item">4</span><span class="level-item">독립변수와 종속변수</span></span></a></li><li><a class="level is-mobile" href="#머신러닝의-분류"><span class="level-left"><span class="level-item">5</span><span class="level-item">머신러닝의 분류</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#지도-학습-Supervised-Learning"><span class="level-left"><span class="level-item">5.1</span><span class="level-item">지도 학습 (Supervised Learning)</span></span></a></li><li><a class="level is-mobile" href="#비지도학습-Unsupervised-Learning"><span class="level-left"><span class="level-item">5.2</span><span class="level-item">비지도학습 (Unsupervised Learning)</span></span></a></li><li><a class="level is-mobile" href="#강화학습-Reinforcement-Learning"><span class="level-left"><span class="level-item">5.3</span><span class="level-item">강화학습 (Reinforcement Learning)</span></span></a></li></ul></li><li><a class="level is-mobile" href="#머신러닝-지도"><span class="level-left"><span class="level-item">6</span><span class="level-item">머신러닝 지도</span></span></a></li></ul></div></div><style>.menu-list > li > a.is-active + .menu-list { display: block; }.menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">카테고리</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/MachineLearning/"><span class="level-start"><span class="level-item">MachineLearning</span></span><span class="level-end"><span class="level-item tag">1</span></span></a><ul><li><a class="level is-mobile" href="/categories/MachineLearning/Python/"><span class="level-start"><span class="level-item">Python</span></span><span class="level-end"><span class="level-item tag">1</span></span></a><ul><li><a class="level is-mobile" href="/categories/MachineLearning/Python/Tensorflow/"><span class="level-start"><span class="level-item">Tensorflow</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li></ul></li><li><a class="level is-mobile" href="/categories/markdown/"><span class="level-start"><span class="level-item">markdown</span></span><span class="level-end"><span class="level-item tag">1</span></span></a><ul><li><a class="level is-mobile" href="/categories/markdown/etc/"><span class="level-start"><span class="level-item">etc</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">태그</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/MachineLearning/"><span class="tag">MachineLearning</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Python/"><span class="tag">Python</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Tensorflow/"><span class="tag">Tensorflow</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/etc/"><span class="tag">etc</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/grammar/"><span class="tag">grammar</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/markdown/"><span class="tag">markdown</span><span class="tag">1</span></a></div></div></div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.png" alt="JesuisJavert" height="28"></a><p class="is-size-7"><span>&copy; 2021 Kang Donghoon</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="external nofollow noopener noreferrer">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/jesuisjavert"><i class="fab fa-github"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="external nofollow noopener noreferrer" title="Instagram" href="https://www.instagram.com/unialike"><i class="fab fa-instagram"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" async></script><script>moment.locale("ko");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="맨 위로" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "이 웹 사이트는 귀하의 경험을 향상시키기 위해 Cookie를 사용합니다.",
+          dismiss: "무시",
+          allow: "허용",
+          deny: "거부",
+          link: "더 알아보기",
+          policy: "Cookie 정책",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="입력 하세요..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"입력 하세요...","untitled":"(제목 없음)","posts":"포스트","pages":"페이지","categories":"카테고리","tags":"태그"});
+        });</script></body></html>
