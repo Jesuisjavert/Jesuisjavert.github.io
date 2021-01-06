@@ -9,8 +9,16 @@
 
 
     <url>
+        <loc>https://jesuisjavert.github.io/2021/01/05/machinelearning-python2/</loc>
+        <lastmod>2021-01-06T07:34:06.587Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://jesuisjavert.github.io/2021/01/05/machinelearning-python1/</loc>
-        <lastmod>2021-01-05T07:44:19.718Z</lastmod>
+        <lastmod>2021-01-06T01:10:00.528Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
