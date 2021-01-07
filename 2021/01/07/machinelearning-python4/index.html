@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>[MachineLearning] 머신러닝야학-Tensorflow (python) 핵심 요약노트3 - JesuisJavert</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="JesuisJavert"><meta name="msapplication-TileImage" content="/img/favicon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="JesuisJavert"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta description="강동훈의 기술 블로그"><meta property="og:type" content="blog"><meta property="og:title" content="Jesuisjavert"><meta property="og:url" content="https://jesuisjavert.github.io/"><meta property="og:site_name" content="Jesuisjavert"><meta property="og:description" content="강동훈의 기술 블로그"><meta property="og:locale" content="ko_KR"><meta property="og:image" content="https://jesuisjavert.github.io/img/logo.png"><meta property="article:published_time" content="2021-01-07T08:45:12.000Z"><meta property="article:modified_time" content="2021-01-07T09:33:34.579Z"><meta property="article:author" content="Kang Donghoon"><meta property="article:tag" content="MachineLearning"><meta property="article:tag" content="Python"><meta property="article:tag" content="Tensorflow"><meta property="twitter:card" content="summary"><meta property="twitter:image" content="/img/logo.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://jesuisjavert.github.io/2021/01/07/machinelearning-python4/"},"headline":"JesuisJavert","image":["https://jesuisjavert.github.io/gallery/thumbnail-web.png"],"datePublished":"2021-01-07T08:45:12.000Z","dateModified":"2021-01-07T09:33:34.579Z","author":{"@type":"Person","name":"Kang Donghoon"},"description":"아이리스 품종 분류 모델 예제다음 예제인 아이리스 품종 분류 모델은 여러 독립변수가 하나의 종속변수(품종)을 예측하는 모델인데, 예측해야 하는 종속변수가 양적변수가 아닌 범주형 데이터라는 차이점이 있다.  데이터 전처리 (범주 데이터 카테고리화)범주화를 위해선 각각의 종속변수를 종류별로 분류화하는 것이 필요하다. 각각의 종속변수의 범주가 해당될 때 1, 아"}</script><link rel="canonical" href="https://jesuisjavert.github.io/2021/01/07/machinelearning-python4/"><link rel="alternate" href="https://jesuisjavert.github.io/rss2.xml" title="JesuisJavert" type="application/atom+xml"><link rel="icon" href="/img/favicon.png"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/css/justifiedGallery.min.css"><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script><!--!--><!--!--><meta name="generator" content="Hexo 5.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/logo.png" alt="JesuisJavert" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/about">About</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/jesuisjavert"><i class="fab fa-github"></i></a><a class="navbar-item" target="_blank" rel="external nofollow noopener noreferrer" title="Instagram" href="https://www.instagram.com/unialike"><i class="fab fa-instagram"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="카탈로그" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="검색" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time datetime="2021-01-07T08:45:12.000Z" title="2021-01-07T08:45:12.000Z">2021-01-07</time>&nbsp;게시 됨</span><span class="level-item"><time datetime="2021-01-07T09:33:34.579Z" title="2021-01-07T09:33:34.579Z">2021-01-07</time>&nbsp;업데이트 됨</span><span class="level-item"><a class="link-muted" href="/categories/MachineLearning/">MachineLearning</a><span> / </span><a class="link-muted" href="/categories/MachineLearning/Python/">Python</a><span> / </span><a class="link-muted" href="/categories/MachineLearning/Python/Tensorflow/">Tensorflow</a></span><span class="level-item">5분안에 읽기 (약 758 단어)</span></div></div><h1 class="title is-3 is-size-4-mobile">[MachineLearning] 머신러닝야학-Tensorflow (python) 핵심 요약노트3</h1><div class="content"><h2 id="아이리스-품종-분류-모델-예제"><a href="#아이리스-품종-분류-모델-예제" class="headerlink" title="아이리스 품종 분류 모델 예제"></a>아이리스 품종 분류 모델 예제</h2><p>다음 예제인 아이리스 품종 분류 모델은 여러 독립변수가 하나의 종속변수(품종)을 예측하는 모델인데, 예측해야 하는 종속변수가 양적변수가 아닌 범주형 데이터라는 차이점이 있다.</p>
+<p><img src="/gallery/post/tensorflow9.png" alt="양적데이터 예측은 Regression, 범주형데이트 예측은 Classification"></p>
+<h2 id="데이터-전처리-범주-데이터-카테고리화"><a href="#데이터-전처리-범주-데이터-카테고리화" class="headerlink" title="데이터 전처리 (범주 데이터 카테고리화)"></a>데이터 전처리 (범주 데이터 카테고리화)</h2><p>범주화를 위해선 각각의 종속변수를 종류별로 분류화하는 것이 필요하다.</p>
+<p>각각의 종속변수의 범주가 해당될 때 1, 아닐 때 0 이란 값을 입력해두어 나중에 각각의 범주에 해당될 확률을 계산하기 용이하게 한다.</p>
+<h3 id="One-Hot-Encoding-원-핫-인코딩"><a href="#One-Hot-Encoding-원-핫-인코딩" class="headerlink" title="One-Hot Encoding (원 핫 인코딩)"></a>One-Hot Encoding (원 핫 인코딩)</h3><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 원핫인코딩</span></span><br><span class="line">아이리스 = pd.get_dummies(아이리스)</span><br></pre></td></tr></table></figure>
+<p>다음과 같이 범주를 분류화 하는 것을 원 핫 인코딩이라고 부르고 Pandas의 get_dummies() 메쏘드로 데이터셋을 변형시킬 수 있다.</p>
+<p><img src="/gallery/post/tensorflow10.png" alt="각각의 품종의 종류에 따라 칼럼을 나누는 원 핫 인코딩을 마치면 데이터셋은 이렇게 변한다!"></p>
+<h2 id="시그모이드-Sigmoid-vs-소프트맥스-Softmax"><a href="#시그모이드-Sigmoid-vs-소프트맥스-Softmax" class="headerlink" title="시그모이드(Sigmoid) vs 소프트맥스(Softmax)"></a>시그모이드(Sigmoid) vs 소프트맥스(Softmax)</h2><p><img src="/gallery/post/sigsoft.png" alt="Sigmoid vs Softmax"></p>
+<p>시그모이드 함수와 소프트맥스 함수는 각각의 용도에 따라 다르게 사용되는 함수인데, 이번 예제는 Multinomial Classification 이라 Softmax 함수로 분석을 진행한다.</p>
+<p>강의에서는 Sigmoid 함수는 언급만 하고 넘어가지만 두 함수의 차이점을 정리해 보기로 했다.</p>
+<table>
+<thead>
+<tr>
+<th align="center">함수</th>
+<th align="center">시그모이드</th>
+<th align="center">소프트맥스</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">구분</td>
+<td align="center">Binary Data(이진데이터)</td>
+<td align="center">Multinomial classification (다항식 분류)</td>
+</tr>
+<tr>
+<td align="center">사용용도</td>
+<td align="center">주로 중간 층의 활성화 함수</td>
+<td align="center">주로 출력 함수</td>
+</tr>
+<tr>
+<td align="center">출력 값 범위</td>
+<td align="center">0~1 사이의 확률 값</td>
+<td align="center">0~1 사이의 확률값 (단, 결과 총합이 1)</td>
+</tr>
+<tr>
+<td align="center">출력 값 의미</td>
+<td align="center">기준치 이상,이하에 따라 True or False</td>
+<td align="center">여러 클래스에 분류될 확률이 각각 출력됨</td>
+</tr>
+</tbody></table>
+<p>시그모이드 함수는 학습을 반복할 수록 0 or 1에 수렴해서 최근들어 단독으로는 많이 사용되지 않으며 활성화 함수로 딥러닝의 한 단계(계단함수)로 자주 사용된다.</p>
+<p>공통점: 둘다 공식이 굉장히 복잡하다.😂 <del>문송합니다</del></p>
+<blockquote>
+<p>퍼셉트론에서 활성화 함수를 계단함수에서 다른 함수로 변경하는 것이 신경망의 Loss를 줄이고 효율을 높이는 핵심!<br>계단함수 -&gt; 1) Sigmoid, 2) ReLU 3) Softmax</p>
+</blockquote>
+<hr>
+
+
+<h2 id="출처"><a href="#출처" class="headerlink" title="출처"></a>출처</h2><hr>
+생활코딩 Deep Learning Tensorflow (python) 강의
+
+<p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://opentutorials.org/course/4570">https://opentutorials.org/course/4570</a></p>
+<p>(생활코딩의 딥러닝 교육컨텐츠는 CCL 라이선스 BY를 따르고 있기 때문에 출처를 표시했을시 컨텐츠의 수정이 가능하고 상업적인 용도로 사용도 가능함)</p>
+<p><a target="_blank" rel="external nofollow noopener noreferrer" href="https://cjw0107.tistory.com/7">https://cjw0107.tistory.com/7</a></p>
+<p>Sigmoid vs Softmax </p>
+</div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/MachineLearning/">MachineLearning</a><a class="link-muted mr-2" rel="tag" href="/tags/Python/">Python</a><a class="link-muted mr-2" rel="tag" href="/tags/Tensorflow/">Tensorflow</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2021/01/06/machinelearning-python3/"><span class="level-item">[MachineLearning] 머신러닝야학-Tensorflow (python) 핵심 요약노트2</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><div class="card"><div class="card-content"><h3 class="title is-5">댓글</h3><div id="disqus_thread"><noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript></div><script>var disqus_config = function () {
+            this.page.url = 'https://jesuisjavert.github.io/2021/01/07/machinelearning-python4/';
+            this.page.identifier = '2021/01/07/machinelearning-python4/';
+        };
+        (function() {
+            var d = document, s = d.createElement('script');  
+            s.src = '//' + 'jesuisjavert' + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();</script></div></div></div><!--!--><div class="column column-right is-4-tablet is-4-desktop is-4-widescreen  order-3 is-sticky"><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">카탈로그</h3><ul class="menu-list"><li><a class="level is-mobile" href="#아이리스-품종-분류-모델-예제"><span class="level-left"><span class="level-item">1</span><span class="level-item">아이리스 품종 분류 모델 예제</span></span></a></li><li><a class="level is-mobile" href="#데이터-전처리-범주-데이터-카테고리화"><span class="level-left"><span class="level-item">2</span><span class="level-item">데이터 전처리 (범주 데이터 카테고리화)</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#One-Hot-Encoding-원-핫-인코딩"><span class="level-left"><span class="level-item">2.1</span><span class="level-item">One-Hot Encoding (원 핫 인코딩)</span></span></a></li></ul></li><li><a class="level is-mobile" href="#시그모이드-Sigmoid-vs-소프트맥스-Softmax"><span class="level-left"><span class="level-item">3</span><span class="level-item">시그모이드(Sigmoid) vs 소프트맥스(Softmax)</span></span></a></li><li><a class="level is-mobile" href="#출처"><span class="level-left"><span class="level-item">4</span><span class="level-item">출처</span></span></a></li></ul></div></div><style>.menu-list > li > a.is-active + .menu-list { display: block; }.menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">카테고리</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/MachineLearning/"><span class="level-start"><span class="level-item">MachineLearning</span></span><span class="level-end"><span class="level-item tag">4</span></span></a><ul><li><a class="level is-mobile" href="/categories/MachineLearning/Python/"><span class="level-start"><span class="level-item">Python</span></span><span class="level-end"><span class="level-item tag">4</span></span></a><ul><li><a class="level is-mobile" href="/categories/MachineLearning/Python/Tensorflow/"><span class="level-start"><span class="level-item">Tensorflow</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li></ul></li></ul></li><li><a class="level is-mobile" href="/categories/markdown/"><span class="level-start"><span class="level-item">markdown</span></span><span class="level-end"><span class="level-item tag">1</span></span></a><ul><li><a class="level is-mobile" href="/categories/markdown/etc/"><span class="level-start"><span class="level-item">etc</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">태그</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/MachineLearning/"><span class="tag">MachineLearning</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Python/"><span class="tag">Python</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Tensorflow/"><span class="tag">Tensorflow</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/etc/"><span class="tag">etc</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/grammar/"><span class="tag">grammar</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/markdown/"><span class="tag">markdown</span><span class="tag">1</span></a></div></div></div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/logo.png" alt="JesuisJavert" height="28"></a><p class="is-size-7"><span>&copy; 2021 Kang Donghoon</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="external nofollow noopener noreferrer">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="external nofollow noopener noreferrer">Icarus</a></p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="external nofollow noopener noreferrer" title="Download on GitHub" href="https://github.com/jesuisjavert"><i class="fab fa-github"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="external nofollow noopener noreferrer" title="Instagram" href="https://www.instagram.com/unialike"><i class="fab fa-instagram"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" async></script><script>moment.locale("ko");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="맨 위로" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "이 웹 사이트는 귀하의 경험을 향상시키기 위해 Cookie를 사용합니다.",
+          dismiss: "무시",
+          allow: "허용",
+          deny: "거부",
+          link: "더 알아보기",
+          policy: "Cookie 정책",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.6.8/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="입력 하세요..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"입력 하세요...","untitled":"(제목 없음)","posts":"포스트","pages":"페이지","categories":"카테고리","tags":"태그"});
+        });</script></body></html>
