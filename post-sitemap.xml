@@ -9,16 +9,16 @@
 
 
     <url>
-        <loc>https://jesuisjavert.github.io/2021/01/10/machinelearning-python5/</loc>
-        <lastmod>2021-01-10T09:04:09.874Z</lastmod>
+        <loc>https://jesuisjavert.github.io/2021/01/11/machinelearning-python6/</loc>
+        <lastmod>2021-01-11T08:34:11.590Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://jesuisjavert.github.io/2021/01/06/machinelearning-python3/</loc>
-        <lastmod>2021-01-10T09:03:57.834Z</lastmod>
+        <loc>https://jesuisjavert.github.io/2021/01/10/machinelearning-python5/</loc>
+        <lastmod>2021-01-11T08:31:47.427Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -26,7 +26,15 @@
 
     <url>
         <loc>https://jesuisjavert.github.io/2021/01/07/machinelearning-python4/</loc>
-        <lastmod>2021-01-10T09:03:44.981Z</lastmod>
+        <lastmod>2021-01-11T08:23:28.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/2021/01/06/machinelearning-python3/</loc>
+        <lastmod>2021-01-11T08:23:22.411Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -34,7 +42,7 @@
 
     <url>
         <loc>https://jesuisjavert.github.io/2021/01/05/machinelearning-python2/</loc>
-        <lastmod>2021-01-10T09:02:29.758Z</lastmod>
+        <lastmod>2021-01-11T08:23:17.090Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
