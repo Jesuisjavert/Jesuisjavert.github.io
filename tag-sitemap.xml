@@ -4,84 +4,140 @@
 
     <url>
         <loc>https://jesuisjavert.github.io/tags/Cloudformation/</loc>
-        <lastmod>2021-01-16T08:59:01.388Z</lastmod>
+        <lastmod>2021-01-18T08:17:06.745Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jesuisjavert.github.io/tags/EC2/</loc>
-        <lastmod>2021-01-16T08:59:01.388Z</lastmod>
+        <lastmod>2021-01-18T08:17:06.745Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jesuisjavert.github.io/tags/Network/</loc>
-        <lastmod>2021-01-16T08:59:01.388Z</lastmod>
+        <lastmod>2021-01-18T08:17:06.745Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jesuisjavert.github.io/tags/Amazon/</loc>
-        <lastmod>2021-01-16T08:59:01.388Z</lastmod>
+        <lastmod>2021-01-18T08:17:06.745Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jesuisjavert.github.io/tags/Cloud/</loc>
-        <lastmod>2021-01-16T08:59:01.388Z</lastmod>
+        <lastmod>2021-01-18T08:17:06.745Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jesuisjavert.github.io/tags/AWS/</loc>
-        <lastmod>2021-01-16T08:59:01.388Z</lastmod>
+        <lastmod>2021-01-18T08:17:06.745Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://jesuisjavert.github.io/tags/Tensorflow/</loc>
-        <lastmod>2021-01-12T07:42:40.550Z</lastmod>
+        <loc>https://jesuisjavert.github.io/tags/SaaS/</loc>
+        <lastmod>2021-01-18T08:17:01.087Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://jesuisjavert.github.io/tags/Python/</loc>
-        <lastmod>2021-01-12T07:42:40.550Z</lastmod>
+        <loc>https://jesuisjavert.github.io/tags/Serverless/</loc>
+        <lastmod>2021-01-18T08:17:01.087Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://jesuisjavert.github.io/tags/MachineLearning/</loc>
-        <lastmod>2021-01-12T07:42:40.550Z</lastmod>
+        <loc>https://jesuisjavert.github.io/tags/PaaS/</loc>
+        <lastmod>2021-01-18T08:17:01.087Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/IaaS/</loc>
+        <lastmod>2021-01-18T08:17:01.087Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/PoP/</loc>
+        <lastmod>2021-01-18T08:17:01.087Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/Edge/</loc>
+        <lastmod>2021-01-18T08:17:01.087Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/AvailabilityZone/</loc>
+        <lastmod>2021-01-18T08:17:01.087Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/Region/</loc>
+        <lastmod>2021-01-18T08:17:01.087Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jesuisjavert.github.io/tags/grammar/</loc>
-        <lastmod>2021-01-12T07:14:14.810Z</lastmod>
+        <lastmod>2021-01-18T08:12:32.452Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jesuisjavert.github.io/tags/markdown/</loc>
-        <lastmod>2021-01-12T07:14:14.810Z</lastmod>
+        <lastmod>2021-01-18T08:12:32.452Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jesuisjavert.github.io/tags/etc/</loc>
-        <lastmod>2021-01-12T07:14:14.810Z</lastmod>
+        <lastmod>2021-01-18T08:12:32.452Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/Tensorflow/</loc>
+        <lastmod>2021-01-18T06:43:32.693Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/Python/</loc>
+        <lastmod>2021-01-18T06:43:32.693Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/MachineLearning/</loc>
+        <lastmod>2021-01-18T06:43:32.693Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
