@@ -9,8 +9,24 @@
 
 
     <url>
+        <loc>https://jesuisjavert.github.io/2021/01/26/aws-study5/</loc>
+        <lastmod>2021-01-27T06:06:20.877Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/2021/01/20/aws-study4/</loc>
+        <lastmod>2021-01-26T05:42:26.227Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://jesuisjavert.github.io/2021/01/18/aws-study3/</loc>
-        <lastmod>2021-01-20T08:20:04.020Z</lastmod>
+        <lastmod>2021-01-23T10:00:19.380Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -18,7 +34,7 @@
 
     <url>
         <loc>https://jesuisjavert.github.io/2021/01/18/aws-study2/</loc>
-        <lastmod>2021-01-20T08:20:02.333Z</lastmod>
+        <lastmod>2021-01-21T02:11:52.105Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
