@@ -10,7 +10,15 @@
 
     <url>
         <loc>https://jesuisjavert.github.io/2021/02/04/figlet/</loc>
-        <lastmod>2021-02-04T10:11:51.329Z</lastmod>
+        <lastmod>2021-02-07T13:17:43.298Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/2021/02/04/aws-study8/</loc>
+        <lastmod>2021-02-05T07:57:27.486Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
