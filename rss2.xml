@@ -54,55 +54,6 @@ Hello .. My name is... SkyNet... (Feat. asciiview)
     </item>
     
     <item>
-      <title>VPC Endpoint &amp; NAT Device &amp; MetaData</title>
-      <link>https://jesuisjavert.github.io/2021/02/04/aws-study8/</link>
-      <guid>https://jesuisjavert.github.io/2021/02/04/aws-study8/</guid>
-      <pubDate>Thu, 04 Feb 2021 06:48:19 GMT</pubDate>
-      
-        
-        
-      <description>&lt;center&gt;
-&lt;img src=&quot;/gallery/post/aws/privatevpc.jpg&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;&lt;br&gt;
-나만의 작고 귀여운 프라이빗 서브넷을 만들어보자. 물논 밖으로 나가려면 대문을 거쳐가야 한다.
-&lt;/ce</description>
-        
-      
-      
-      
-      <content:encoded><![CDATA[<center><img src="/gallery/post/aws/privatevpc.jpg" width="500" height="500"><br>나만의 작고 귀여운 프라이빗 서브넷을 만들어보자. 물논 밖으로 나가려면 대문을 거쳐가야 한다.</center><h2 id="프라이빗-서브넷-생성하기"><a href="#프라이빗-서브넷-생성하기" class="headerlink" title="프라이빗 서브넷 생성하기"></a>프라이빗 서브넷 생성하기</h2><p><img src="/gallery/post/aws/aws36.png" alt="실습으로 진행 할 아키텍쳐의 구조도"></p><hr>출처)  Cloudnet@ 팀의 ANOS (AWS Network Online Study 2기 학습 내용)https://cloudneta.github.io/]]></content:encoded>
-      
-      
-      <category domain="https://jesuisjavert.github.io/categories/Network/">Network</category>
-      
-      <category domain="https://jesuisjavert.github.io/categories/Network/AWS/">AWS</category>
-      
-      <category domain="https://jesuisjavert.github.io/categories/Network/AWS/VPC/">VPC</category>
-      
-      
-      <category domain="https://jesuisjavert.github.io/tags/AWS/">AWS</category>
-      
-      <category domain="https://jesuisjavert.github.io/tags/Cloud/">Cloud</category>
-      
-      <category domain="https://jesuisjavert.github.io/tags/Amazon/">Amazon</category>
-      
-      <category domain="https://jesuisjavert.github.io/tags/Network/">Network</category>
-      
-      <category domain="https://jesuisjavert.github.io/tags/VPC/">VPC</category>
-      
-      <category domain="https://jesuisjavert.github.io/tags/NATGateWay/">NATGateWay</category>
-      
-      <category domain="https://jesuisjavert.github.io/tags/EndPoint/">EndPoint</category>
-      
-      <category domain="https://jesuisjavert.github.io/tags/MetaData/">MetaData</category>
-      
-      <category domain="https://jesuisjavert.github.io/tags/S3/">S3</category>
-      
-      
-      <comments>https://jesuisjavert.github.io/2021/02/04/aws-study8/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
       <title>AWS Private Subnet내의 EC2 접속 &amp; NAT Gateway</title>
       <link>https://jesuisjavert.github.io/2021/02/03/aws-study7/</link>
       <guid>https://jesuisjavert.github.io/2021/02/03/aws-study7/</guid>
