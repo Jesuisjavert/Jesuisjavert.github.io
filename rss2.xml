@@ -9,8 +9,49 @@
     <atom:link href="https://jesuisjavert.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>강동훈의 블로그에 오신 것을 환영합니다.</description>
-    <pubDate>Wed, 17 Feb 2021 07:35:07 GMT</pubDate>
+    <pubDate>Wed, 24 Feb 2021 09:11:44 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>AWS AI/ML Innovate Online-Conference 참여 후기</title>
+      <link>https://jesuisjavert.github.io/2021/02/24/aws-innovative/</link>
+      <guid>https://jesuisjavert.github.io/2021/02/24/aws-innovative/</guid>
+      <pubDate>Wed, 24 Feb 2021 06:54:29 GMT</pubDate>
+      
+        
+        
+      <description>&lt;center&gt;
+&lt;img src=&quot;/gallery/post/machinelearning/model_train.jpg&quot;&gt;&lt;br&gt;
+Machine Learning 뽕에 취한다...
+&lt;/center&gt;
+
+&lt;h2 id=&quot;AWS-AI-ML-Innovate-Onli</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<center><img src="/gallery/post/machinelearning/model_train.jpg"><br>Machine Learning 뽕에 취한다...</center><h2 id="AWS-AI-ML-Innovate-Online-Conference-참가-후기"><a href="#AWS-AI-ML-Innovate-Online-Conference-참가-후기" class="headerlink" title="AWS AI / ML Innovate Online Conference 참가 후기"></a>AWS AI / ML Innovate Online Conference 참가 후기</h2><p>때는 코로나 시국, Offline Conference들이 Online으로 많이 이루어진다.<br>하지만, <strong>오히려 좋아.</strong> Online 이니까, 참가비도, 교통비도 <strong>0원!</strong><br>올해 이루어졌던, AWS re:invent 도 참여했었고 (re:invent 는 System Architecture쪽 위주)<br>도키도키한 마음으로 기다리던<br><strong>AWS AI (Artificial Intelligence) &amp; ML (Machine Learning) Innovate Online Conference</strong> 의 날이 밝았다 !</p><p>자세한 내용은 참가한 사람들에게 공개된 자료의 저작권이 어디까지 공개해도 되는지 잘 모르겠어서..<br>기조연설의 캡쳐본으로 어떤 내용이 진행 되었는지 Summary 해보았다.</p><h2 id="T1-기조연설-Summary"><a href="#T1-기조연설-Summary" class="headerlink" title="T1 기조연설 Summary"></a>T1 기조연설 Summary</h2><p><img src="/gallery/post/aws_ml/awsml1.png" alt="왜 AI 와 ML 인가?"><br><img src="/gallery/post/aws_ml/awsml2.png" alt="AI/ML의 5가지 목적"><br><img src="/gallery/post/aws_ml/awsml3.png" alt="ML 트레이닝 구조"><br><img src="/gallery/post/aws_ml/awsml4.png" alt="ML 전용 GPU의 학습 속도는 놀라웠다 !"><br><img src="/gallery/post/aws_ml/awsml6.png" alt="Amazon SageMaker.. 고거슨 Future.."><br><img src="/gallery/post/aws_ml/awsml7.png" alt="자체 AWS ML IDE 제공 환경"><br><img src="/gallery/post/aws_ml/awsml8.png" alt="시각화/검증툴 뿐 아니라 DevOps Services까지"><br><img src="/gallery/post/aws_ml/awsml10.png" alt="ML 기반 예측 기능을 단순 SQL문 요청을 통해 얻을수 있다!? 삐슝빠슝"><br><img src="/gallery/post/aws_ml/awsml11.png" alt="SQL문으로 S3 내의를 바로바로 가져와 ML 적용 할 수 있다"><br><img src="/gallery/post/aws_ml/awsml12.png" alt="ML을 통해 BI(Business Intelligence)향상으로"><br><img src="/gallery/post/aws_ml/awsml13.png" alt="강력한 ML 자연어처리 Visualization 도구. Javert 픽 필수 학습 도구!"><br><img src="/gallery/post/aws_ml/awsml14.png" alt="이외에도 이미 완성된 AI 기능을 API 형태로 쉽게 활용가능! 활용방안이 무궁무진할 듯"><br><img src="/gallery/post/aws_ml/awsml15.png" alt="AWS DeepLens-&gt;Rekognition Imagae-&gt;Transcribe-&gt;Polly&lt;-&gt;Translate로 구현한 AI Smart Application 예제"><br><img src="/gallery/post/aws_ml/awsml16.png" alt="Personalized Recommendation Algorithm"><br><img src="/gallery/post/aws_ml/awsml17.png" alt="다양한 비즈니스 현장의 모니터링 솔루션"><br><img src="/gallery/post/aws_ml/awsml18.png" alt="ML기반 차세대 DevOps 서비스까지"><br><img src="/gallery/post/aws_ml/awsml19.png" alt="ML 기반 자율주행 레이싱? 가상 ML로 최적의 자율주행 모델 학습까지!"></p><hr><h2 id="후기-및-대댓글-받은-썰-푼다"><a href="#후기-및-대댓글-받은-썰-푼다" class="headerlink" title="후기 및 대댓글 받은 썰 푼다.."></a>후기 및 대댓글 받은 썰 푼다..</h2><p>정말 다양한 산업 분야에 적용될 수 있고, 개발자 입장에서 써보고 싶은 라이브러리들이 API 형태로 손쉽게 제공되기 때문에,ML의 거대한 이론에 지레 겁 먹고 공부를 포기할 것이 아니라, 실제 적용 되는 서비스들을 만들어보고, 적용시키는 것이 너무 쉽고 용이 할 것 같아 가슴이 두근두근 해지는 Conference였다.</p><p>다음 프로젝트는 AWS ML 을 이용한 토이프로젝트로 바로 다아알려그아ㅏㅏㅏ - </p><p>그리고!!!!</p><hr><center><img src="/gallery/post/slackcomment.png"><br>실시간으로 성덕이 되었따.. 🙈</center><br><p><strong>AWS 한국인 사용자 Slack 채널에 기조연설을 하신<br>윤석찬(AWS 수석 테크 에반젤리스트)</strong> 님에게, 오늘 연설 너무 잘봤다고 댓글 달았더니 친절한 <strong>대댓글</strong>도 받았따!! 이 얼마나 <strong>좋은 세상</strong> 인가.. 21세기 만세.. ㅋㅋㅋ</p><hr><p>출처)  </p><p><a href="https://aws.amazon.com/ko/events/aws-innovate/machine-learning/">https://aws.amazon.com/ko/events/aws-innovate/machine-learning/</a></p>]]></content:encoded>
+      
+      
+      <category domain="https://jesuisjavert.github.io/categories/MachineLearning/">MachineLearning</category>
+      
+      <category domain="https://jesuisjavert.github.io/categories/MachineLearning/AWS/">AWS</category>
+      
+      <category domain="https://jesuisjavert.github.io/categories/MachineLearning/AWS/Innovate/">Innovate</category>
+      
+      
+      <category domain="https://jesuisjavert.github.io/tags/AWS/">AWS</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/Cloud/">Cloud</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/MachineLearning/">MachineLearning</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/AWSInnovate/">AWSInnovate</category>
+      
+      
+      <comments>https://jesuisjavert.github.io/2021/02/24/aws-innovative/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>인터넷 게이트 웨이 &amp; NAT Device &amp; NAT Gateway</title>
