@@ -9,8 +9,16 @@
 
 
     <url>
-        <loc>https://jesuisjavert.github.io/2021/03/02/javascript-grammar/</loc>
-        <lastmod>2021-03-09T06:51:57.556Z</lastmod>
+        <loc>https://jesuisjavert.github.io/2021/03/02/django-readme/</loc>
+        <lastmod>2021-03-09T07:49:03.495Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/2021/03/09/javascript-grammar/</loc>
+        <lastmod>2021-03-09T07:48:48.937Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

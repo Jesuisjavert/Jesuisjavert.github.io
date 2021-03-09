@@ -9,14 +9,14 @@
     <atom:link href="https://jesuisjavert.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>강동훈의 블로그에 오신 것을 환영합니다.</description>
-    <pubDate>Tue, 09 Mar 2021 06:51:57 GMT</pubDate>
+    <pubDate>Tue, 09 Mar 2021 07:48:48 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>Javascript 기초문법 가물가물할 때 5분 컷 내기</title>
-      <link>https://jesuisjavert.github.io/2021/03/02/javascript-grammar/</link>
-      <guid>https://jesuisjavert.github.io/2021/03/02/javascript-grammar/</guid>
-      <pubDate>Tue, 02 Mar 2021 06:02:04 GMT</pubDate>
+      <link>https://jesuisjavert.github.io/2021/03/09/javascript-grammar/</link>
+      <guid>https://jesuisjavert.github.io/2021/03/09/javascript-grammar/</guid>
+      <pubDate>Tue, 09 Mar 2021 06:08:35 GMT</pubDate>
       
       <description>&lt;center&gt;
 &lt;img src=&quot;/gallery/post/javascript.png&quot; width=&quot;500&quot; height=&quot;500&quot;&gt;&lt;br&gt;
@@ -45,7 +45,49 @@ Javascript 오빠는 풍각쟁이야~ 오빠는 심술쟁이야~&lt;br&gt;
       <category domain="https://jesuisjavert.github.io/tags/Grammar/">Grammar</category>
       
       
-      <comments>https://jesuisjavert.github.io/2021/03/02/javascript-grammar/#disqus_thread</comments>
+      <comments>https://jesuisjavert.github.io/2021/03/09/javascript-grammar/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>내가 쓴 Django README를 다시 읽다.</title>
+      <link>https://jesuisjavert.github.io/2021/03/02/django-readme/</link>
+      <guid>https://jesuisjavert.github.io/2021/03/02/django-readme/</guid>
+      <pubDate>Tue, 02 Mar 2021 06:02:04 GMT</pubDate>
+      
+        
+        
+      <description>&lt;center&gt;
+&lt;img src=&quot;/gallery/post/django.png&quot;&gt;&lt;br&gt;
+Django.. the &quot;D&quot; is Silent
+&lt;/center&gt;
+&lt;br&gt;
+
+&lt;p&gt;얼마전 작년 3월에서 5월 사이에 만들었던 5차례의 Django 프로젝트들을 다</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<center><img src="/gallery/post/django.png"><br>Django.. the "D" is Silent</center><br><p>얼마전 작년 3월에서 5월 사이에 만들었던 5차례의 Django 프로젝트들을 다시 읽어보다가,<br>그때 너무나도 정성스럽게 적어두었던 Django Project의 README 파일들을 발견하게 되었다.<br>하루에 8시간씩 개발을 하고 지쳐쓰러져도, 으으.. README는 써야해.. 하면서<br>좀비같이 일어나 README를 쓰던 모습이 떠오른다.</p><p><img src="/gallery/post/django_README.png" alt="나란 녀석.. 부지런한 녀석이었군.."></p><p>당시엔 좌충우돌, Django를 처음 써보는 것이라 Python 에 HTML Bootstrap을 붙여 작업하는 것만으로도<br>MVC 패턴이니, MVT 패턴이니.. HTML 문법이니 CSS니 허덕이며 작업했던 게 기억나는데,<br>혹시 Django를 공부하는 분들에게 도움이 될까 싶어 Repository를 만들었다.<br>호옥시 Django 공부하시는 분 있으시면 참고해보세요~</p><p><a href="https://github.com/Jesuisjavert/Django_README">https://github.com/Jesuisjavert/Django_README</a></p>]]></content:encoded>
+      
+      
+      <category domain="https://jesuisjavert.github.io/categories/Python/">Python</category>
+      
+      <category domain="https://jesuisjavert.github.io/categories/Python/Django/">Django</category>
+      
+      
+      <category domain="https://jesuisjavert.github.io/tags/Python/">Python</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/Django/">Django</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/Framework/">Framework</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/MVC/">MVC</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/MTV/">MTV</category>
+      
+      
+      <comments>https://jesuisjavert.github.io/2021/03/02/django-readme/#disqus_thread</comments>
       
     </item>
     
