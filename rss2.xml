@@ -9,14 +9,14 @@
     <atom:link href="https://jesuisjavert.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>강동훈의 블로그에 오신 것을 환영합니다.</description>
-    <pubDate>Thu, 11 Mar 2021 08:07:14 GMT</pubDate>
+    <pubDate>Thu, 11 Mar 2021 08:15:22 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
       <title>대용량 트래픽 대처 AWS 시스템 아키텍쳐 토이 프로젝트</title>
-      <link>https://jesuisjavert.github.io/2021/03/09/django-vue-aws/</link>
-      <guid>https://jesuisjavert.github.io/2021/03/09/django-vue-aws/</guid>
-      <pubDate>Tue, 09 Mar 2021 06:52:04 GMT</pubDate>
+      <link>https://jesuisjavert.github.io/2021/03/11/django-vue-aws/</link>
+      <guid>https://jesuisjavert.github.io/2021/03/11/django-vue-aws/</guid>
+      <pubDate>Thu, 11 Mar 2021 06:52:04 GMT</pubDate>
       
         
         
@@ -64,7 +64,7 @@
       <category domain="https://jesuisjavert.github.io/tags/ElastiCache/">ElastiCache</category>
       
       
-      <comments>https://jesuisjavert.github.io/2021/03/09/django-vue-aws/#disqus_thread</comments>
+      <comments>https://jesuisjavert.github.io/2021/03/11/django-vue-aws/#disqus_thread</comments>
       
     </item>
     
