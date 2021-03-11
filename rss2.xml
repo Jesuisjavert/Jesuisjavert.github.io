@@ -9,8 +9,64 @@
     <atom:link href="https://jesuisjavert.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>강동훈의 블로그에 오신 것을 환영합니다.</description>
-    <pubDate>Tue, 09 Mar 2021 07:48:48 GMT</pubDate>
+    <pubDate>Thu, 11 Mar 2021 08:01:14 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>대용량 트래픽 대처 AWS 시스템 아키텍쳐 토이 프로젝트</title>
+      <link>https://jesuisjavert.github.io/2021/03/09/django-vue-aws/</link>
+      <guid>https://jesuisjavert.github.io/2021/03/09/django-vue-aws/</guid>
+      <pubDate>Tue, 09 Mar 2021 06:52:04 GMT</pubDate>
+      
+        
+        
+      <description>&lt;center&gt;
+&lt;img src=&quot;/gallery/post/awstest.png&quot;&gt;&lt;br&gt;
+이력서 클릭 한 방에, 10번이나 지원한다구?
+&lt;/center&gt;
+&lt;br&gt;
+
+&lt;p&gt;작년 12월, 내가 면접을 봤된 연봉이 쌔기로 유명한 M모 회사의 DevOps </description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<center><img src="/gallery/post/awstest.png"><br>이력서 클릭 한 방에, 10번이나 지원한다구?</center><br><p>작년 12월, 내가 면접을 봤된 연봉이 쌔기로 유명한 M모 회사의 DevOps 직군 과제는 다음과 같았다. </p><p><strong>Public Cloud (AWS, GCP, Azure 등) 상에서의 웹서비스 시스템 아키텍처를 설계하여 10분 내로 발표하시오. 웹 서비스는 고객사별로 활용하는 사이트 도메인이 구분되고, 특정 순간에 순간적인 대용량 트래픽이 발생할 수 있다.</strong></p><p>처음 이 과제를 딱 받은 순간부터 멘붕이었다. 매일같이 SSAFY 최종 프로젝트를 진행하는 와중에 (심지어 내가 팀장) 준비할 수 있는 기간은 고작 일주일!!<br>여차저차, PPT 자료 조사도 하고, Ssafy 시니어 개발자 친구님들에게 조언도 얻고, 컨설턴트님들과 화상통화로 PT의 부족한 점도 듣고, PPT도 세련되게(?) 만들고,<br>대본도 칼같이 10분에 딱 맞춰 제작하고, 영상을 찍어, PT전형은 통과했지만<br>결론부터 말하자면, 총 7차 면접 과정중 6차에서 떨어지고 말았다! ㅎㅎㅎ (인생은 쓰디쓴 법)</p><p>PT 과제는, 그저 이론상으로 대용량 트래픽에 대응할 수 있는 시스템 아키텍쳐를 설계하고 구성하는 것 뿐이었지만 PT면접을 통과하고, 기술면접을 준비하던 와중에<br><strong>“내가 만든 시스템 아키텍쳐를 실제로 구현해 가야 겠다!!”</strong> 라는 생각이 들었다. 실제로 이론상으로 설계도를 그리는 것과, Backend - Frontend 로직 + Infra구성까지 다 하는 것은 <strong>하늘과 땅차이!!</strong></p><p>고래서, 단 3일만에 부랴부랴 AWS 의 Auto Scaling, Route 53, Amazon RDS, Amazon S3, Cloudfront, ELB 기능을 포함한 토이 프로젝트를 개발했는데, 결론부터 말하자면 <strong>아니 이걸 어케 3일만에 다했지..</strong> 싶을 정도의 나름 개고생한 흔적들이 보이는 토이 프로젝트가 나오게 되어서, Github 에 Open 하게 되었다.</p><p><img src="/gallery/post/awspjt1/sli0.png" alt="AWS System Architecture 초안"></p><p>기본적인 사이트의 컨셉은, 회원가입한 구직자가, 이력서를 간단히 작성하고<br>원하는 부서에 이력서를 낼 때, 대용량의 사진을 여러장을 보내도 서버가 다운 되지 않도록 하는 것이었다. AutoScaling 기능을 추가했고, Cloudfront로 모니터링 하도록 했고, 요구사항이었던 고객사별 다른 도메인 주소를 구현하기 위해 Route 53을 붙였다. CDN (Cloudfront)도 붙여서 Image 로딩의 레이턴시를 줄였다.</p><p>또한, Frontend 단에서 SPA가 조금 더 가볍게 로딩될 수 있도록 디렉토리를 Refactoring 해 기본적으로 각 세션단위 컴포넌트가 Lazy Loading 될 수 있게 만들었다. 컴포넌트를 재활용할 수 있게 만든 것은 덤이다.</p><p>Backend 단에서는 Django로 S3 서버로 이미지를 바로 업로드 할 수 있게 만들었는데, 이미지를 여러개를 업로드 할 수 있도록 Stack 을 만들고 그 안에서 For문을 돌며 챠라락 이미지 업로드가 될 수 있게 만들었다.</p><p>사실은 제대로 된 테스팅을 해보려면 여러가지 부하툴을 사용했어야 했는데,<br>Uhm… 사실은 개발을 다 끝내고 나니까 기력이 떨어져서 좀 귀찮았… (커허흠)</p><p>시간이 너무 없어서, 다 구현하지 못한 부분(ElastiCache)도 있고, 아직 이때는<br>AWS의 이론에 대해 깊이 있는 학습을 마저 못한 것도 있어서 미흡하지만<br>어쨋든, <strong>깔끔하고 이쁜 모바일 반응형 웹 서비스를 3일만에 완성시켰다</strong>는 점에서 뿌-듯 했따고 한다. ㅎㅎ</p><center>    <img src="/gallery/post/awspjt1/1.png"><br>    <img src="/gallery/post/awspjt1/2.png"><br>    <img src="/gallery/post/awspjt1/3.png"><br>    <img src="/gallery/post/awspjt1/4.png"><br></center><br><p>프로젝트의 세부사항과 코드는 다음 링크의 README에 올려놓았습니다. 참조!</p><p><a href="https://github.com/Jesuisjavert/awsTest">https://github.com/Jesuisjavert/awsTest</a></p>]]></content:encoded>
+      
+      
+      <category domain="https://jesuisjavert.github.io/categories/Javascript/">Javascript</category>
+      
+      <category domain="https://jesuisjavert.github.io/categories/Javascript/Vue-js/">Vue.js</category>
+      
+      
+      <category domain="https://jesuisjavert.github.io/tags/AWS/">AWS</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/Python/">Python</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/Django/">Django</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/Framework/">Framework</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/Vue/">Vue</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/Vuetify/">Vuetify</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/AutoScaling/">AutoScaling</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/Cloudfront/">Cloudfront</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/Amazon-S3/">Amazon S3</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/Route53/">Route53</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/ELB/">ELB</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/ElastiCache/">ElastiCache</category>
+      
+      
+      <comments>https://jesuisjavert.github.io/2021/03/09/django-vue-aws/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Javascript 기초문법 가물가물할 때 5분 컷 내기</title>
@@ -785,42 +841,6 @@ VPC를 설정 할 땐, 퍼블릭/프라이빗 영역설정이 중요하다
       
       
       <comments>https://jesuisjavert.github.io/2021/01/05/machinelearning-python1/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Markdown 문서를 보기 좋게 작성해보자</title>
-      <link>https://jesuisjavert.github.io/2020/12/12/markdown-grammar/</link>
-      <guid>https://jesuisjavert.github.io/2020/12/12/markdown-grammar/</guid>
-      <pubDate>Sat, 12 Dec 2020 12:55:22 GMT</pubDate>
-      
-      <description>&lt;p&gt;&lt;img src=&quot;/gallery/post/markdown.png&quot; alt=&quot;Markdown&quot;&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;VScode에서 Markdown Preview Extension을 이용하면 보기 편하다&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h4 id=&quot;마크다운이란&quot;&gt;&lt;a href=&quot;#마크다운이란&quot; class=&quot;headerlink&quot; title=&quot;마크다운이란?&quot;&gt;&lt;/a&gt;마크다운이란?&lt;/h4&gt;&lt;p&gt;Markdown은 2004년 미국의 개발자 John Gruber와 Aaron Swartz가 개발한 경량형 마크업 언어로, 쉽고 빠른 포맷을 지녀 많은 개발자들에 의해 널리 사랑받고 있습니다.&lt;/p&gt;
-&lt;p&gt;Github 의 README, 블로그의 글, 개발 TIL 작성 등, 여러 분야에서 활용 되고 있습니다.&lt;/p&gt;
-&lt;p&gt;마크다운의 문법 요소들을 정리해두어, 앞으로 작성할 블로그의 포스팅에 어느정도의 Guideline을 만들어 두려고 합니다.&lt;/p&gt;
-&lt;hr&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p><img src="/gallery/post/markdown.png" alt="Markdown"></p><blockquote><p>VScode에서 Markdown Preview Extension을 이용하면 보기 편하다</p></blockquote><h4 id="마크다운이란"><a href="#마크다운이란" class="headerlink" title="마크다운이란?"></a>마크다운이란?</h4><p>Markdown은 2004년 미국의 개발자 John Gruber와 Aaron Swartz가 개발한 경량형 마크업 언어로, 쉽고 빠른 포맷을 지녀 많은 개발자들에 의해 널리 사랑받고 있습니다.</p><p>Github 의 README, 블로그의 글, 개발 TIL 작성 등, 여러 분야에서 활용 되고 있습니다.</p><p>마크다운의 문법 요소들을 정리해두어, 앞으로 작성할 블로그의 포스팅에 어느정도의 Guideline을 만들어 두려고 합니다.</p><hr><a id="more"></a><h4 id="Heading"><a href="#Heading" class="headerlink" title="Heading"></a>Heading</h4><p>기본적인 heading은 #의 갯수로 헤더의 크기를 정할 수 있습니다. </p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># Heading 1</span></span><br><span class="line"><span class="section">## Heading 2</span></span><br><span class="line"><span class="section">### Heading 3</span></span><br><span class="line"><span class="section">#### Heading 4</span></span><br><span class="line"><span class="section">##### Heading 5</span></span><br><span class="line"><span class="section">###### Heading 6</span></span><br></pre></td></tr></table></figure><h1 id="Heading-1"><a href="#Heading-1" class="headerlink" title="Heading 1"></a>Heading 1</h1><h2 id="Heading-2"><a href="#Heading-2" class="headerlink" title="Heading 2"></a>Heading 2</h2><h3 id="Heading-3"><a href="#Heading-3" class="headerlink" title="Heading 3"></a>Heading 3</h3><h4 id="Heading-4"><a href="#Heading-4" class="headerlink" title="Heading 4"></a>Heading 4</h4><h5 id="Heading-5"><a href="#Heading-5" class="headerlink" title="Heading 5"></a>Heading 5</h5><h6 id="Heading-6"><a href="#Heading-6" class="headerlink" title="Heading 6"></a>Heading 6</h6><hr><h4 id="밑줄"><a href="#밑줄" class="headerlink" title="밑줄"></a>밑줄</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">__<span class="emphasis">_ 표시는 밑줄을 표시합니다.</span></span></span><br></pre></td></tr></table></figure><hr><h4 id="인용-표시-Quote"><a href="#인용-표시-Quote" class="headerlink" title="인용 표시 (Quote)"></a>인용 표시 (Quote)</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; 표시는 뒷 배경과 Text를 강조할 수 있습니다.</span></span><br></pre></td></tr></table></figure><blockquote><p>뭔가 명언 같은 걸 넣어야 할 것 같다.</p></blockquote><hr><h4 id="Bold-amp-Italic-amp-Strikethrough"><a href="#Bold-amp-Italic-amp-Strikethrough" class="headerlink" title="Bold  &amp; Italic &amp; Strikethrough"></a>Bold  &amp; Italic &amp; Strikethrough</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="strong">**Bold**</span> <span class="emphasis">*Italic*</span> ~~Strikethrough~~ </span><br><span class="line"><span class="strong">**로 감싸면 굵은 글씨로 표시가 됩니다.</span></span><br><span class="line"><span class="strong"><span class="emphasis">*로 감싸면 이태릭 체로 표시가 됩니다.</span></span></span><br><span class="line"><span class="strong"><span class="emphasis">~~로 감싸면 삭선처리가 됩니다.</span></span></span><br></pre></td></tr></table></figure><p><strong>Bold</strong><br><em>Italic</em><br><del>Strikethrough</del> </p><hr><h4 id="Bullet-List-amp-Numbered-List"><a href="#Bullet-List-amp-Numbered-List" class="headerlink" title="Bullet List &amp; Numbered List"></a>Bullet List &amp; Numbered List</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">To do List:</span><br><span class="line"><span class="bullet">-</span> Something new</span><br><span class="line"><span class="bullet">-</span> Something good</span><br><span class="line"><span class="bullet">1.</span> Something important</span><br><span class="line"><span class="bullet">2.</span> Something interesting</span><br></pre></td></tr></table></figure><p>To do List:</p><ul><li>Something new</li><li>Something good</li></ul><ol><li>Something important</li><li>Something interesting</li></ol><hr><h4 id="HTML-Link-amp-Image-넣기"><a href="#HTML-Link-amp-Image-넣기" class="headerlink" title="HTML Link &amp; Image 넣기"></a>HTML Link &amp; Image 넣기</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Click Here → [<span class="string">MyGitHubPage</span>](<span class="link">https://github.com/jesuisjavert</span>)</span><br><span class="line"></span><br><span class="line">![<span class="string">Image</span>](<span class="link">https://picsum.photos/seed/picsum/200/300</span>)</span><br></pre></td></tr></table></figure><p>Click Here → <a href="https://github.com/jesuisjavert">MyGitHubPage</a></p><p><img src="https://picsum.photos/seed/picsum/800/300" alt="Image"></p><hr><h4 id="In-line-코드-강조"><a href="#In-line-코드-강조" class="headerlink" title="In-line 코드 강조"></a>In-line 코드 강조</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="code">`print(&#x27;hello Javert&#x27;)`</span></span><br></pre></td></tr></table></figure><p><code>print(&#39;hello Javert&#39;)</code></p><hr><h4 id="Table-삽입"><a href="#Table-삽입" class="headerlink" title="Table 삽입"></a>Table 삽입</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">과일 | 특징 | 특이사항</span><br><span class="line">--|:--:|--:</span><br><span class="line"><span class="code">`Apple`</span> | 사과는 맛있어 | <span class="code">`맛있으면 빨개`</span></span><br><span class="line"><span class="code">`Lemon`</span> | 레몬은 셔 | 여기는 우측 정렬</span><br><span class="line"><span class="code">`Lime`</span> | 라임은 상큼해 |</span><br><span class="line"><span class="code">`Grape`</span> | 포도는 달아 |</span><br></pre></td></tr></table></figure><table><thead><tr><th>과일</th><th align="center">특징</th><th align="right">특이사항</th></tr></thead><tbody><tr><td><code>Apple</code></td><td align="center">사과는 맛있어</td><td align="right"><code>맛있으면 빨개</code></td></tr><tr><td><code>Lemon</code></td><td align="center">레몬은 셔</td><td align="right">여기는 우측 정렬</td></tr><tr><td><code>Lime</code></td><td align="center">라임은 상큼해</td><td align="right"></td></tr><tr><td><code>Grape</code></td><td align="center">포도는 달아</td><td align="right"></td></tr></tbody></table><hr>]]></content:encoded>
-      
-      
-      <category domain="https://jesuisjavert.github.io/categories/etc/">etc</category>
-      
-      <category domain="https://jesuisjavert.github.io/categories/etc/Markdown/">Markdown</category>
-      
-      
-      <category domain="https://jesuisjavert.github.io/tags/etc/">etc</category>
-      
-      <category domain="https://jesuisjavert.github.io/tags/markdown/">markdown</category>
-      
-      <category domain="https://jesuisjavert.github.io/tags/grammar/">grammar</category>
-      
-      
-      <comments>https://jesuisjavert.github.io/2020/12/12/markdown-grammar/#disqus_thread</comments>
       
     </item>
     
