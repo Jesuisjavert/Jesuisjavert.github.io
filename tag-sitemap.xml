@@ -3,6 +3,83 @@
 
 
     <url>
+        <loc>https://jesuisjavert.github.io/tags/jesuisjavert/</loc>
+        <lastmod>2021-03-23T07:44:30.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/LoveLine/</loc>
+        <lastmod>2021-03-23T07:44:30.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/MODU-s-Health/</loc>
+        <lastmod>2021-03-23T07:44:30.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/AFOS/</loc>
+        <lastmod>2021-03-23T07:44:30.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/ANOS/</loc>
+        <lastmod>2021-03-23T07:44:30.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/SSAFY/</loc>
+        <lastmod>2021-03-23T07:44:30.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/Vue/</loc>
+        <lastmod>2021-03-23T07:44:30.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/Django/</loc>
+        <lastmod>2021-03-23T07:44:30.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/Javascript/</loc>
+        <lastmod>2021-03-23T07:44:30.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/Python/</loc>
+        <lastmod>2021-03-23T07:44:30.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jesuisjavert.github.io/tags/AWS/</loc>
+        <lastmod>2021-03-23T07:44:30.985Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://jesuisjavert.github.io/tags/ElastiCache/</loc>
         <lastmod>2021-03-11T08:21:10.123Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -52,35 +129,7 @@
     </url>
 
     <url>
-        <loc>https://jesuisjavert.github.io/tags/Vue/</loc>
-        <lastmod>2021-03-11T08:21:10.123Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://jesuisjavert.github.io/tags/Framework/</loc>
-        <lastmod>2021-03-11T08:21:10.123Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://jesuisjavert.github.io/tags/Django/</loc>
-        <lastmod>2021-03-11T08:21:10.123Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://jesuisjavert.github.io/tags/Python/</loc>
-        <lastmod>2021-03-11T08:21:10.123Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://jesuisjavert.github.io/tags/AWS/</loc>
         <lastmod>2021-03-11T08:21:10.123Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -102,13 +151,6 @@
 
     <url>
         <loc>https://jesuisjavert.github.io/tags/Grammar/</loc>
-        <lastmod>2021-03-09T07:48:48.937Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://jesuisjavert.github.io/tags/Javascript/</loc>
         <lastmod>2021-03-09T07:48:48.937Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
