@@ -9,8 +9,41 @@
     <atom:link href="https://jesuisjavert.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>강동훈의 블로그에 오신 것을 환영합니다.</description>
-    <pubDate>Wed, 24 Mar 2021 08:15:03 GMT</pubDate>
+    <pubDate>Tue, 30 Mar 2021 06:23:22 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>2021 Google Cloud Qwiklabs 참가 후기</title>
+      <link>https://jesuisjavert.github.io/2021/03/29/Google-Cloud-Qwiklabs/</link>
+      <guid>https://jesuisjavert.github.io/2021/03/29/Google-Cloud-Qwiklabs/</guid>
+      <pubDate>Mon, 29 Mar 2021 06:52:04 GMT</pubDate>
+      
+        
+        
+      <description>&lt;center&gt;
+&lt;img src=&quot;/gallery/post/Qwiklabs/qwiklab.png&quot;&gt;&lt;br&gt;
+&lt;img src=&quot;/gallery/post/Qwiklabs/qwik2.png&quot;&gt;&lt;br&gt;
+구글 Quiklabs Cloud Study Jam 참가 </description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<center><img src="/gallery/post/Qwiklabs/qwiklab.png"><br><img src="/gallery/post/Qwiklabs/qwik2.png"><br>구글 Quiklabs Cloud Study Jam 참가 후기 및 배지</center><br><h2 id="어서와-Google-Cloud-Platform-은-처음이지"><a href="#어서와-Google-Cloud-Platform-은-처음이지" class="headerlink" title="어서와, Google Cloud Platform 은 처음이지?"></a>어서와, Google Cloud Platform 은 처음이지?</h2><p> 그 동안, AWS에서만 클라우드 관련 작업을 하고, AWS 스터디를 하다보니<br>내 자신이 자연스럽게 AWS에 기술 Lock-In이 되가는 걸 느꼈다.<br>사실은 GCP나 Azure도, 경쟁력을 갖춘 클라우드 서비스 제공자인데..<br>그래서 AWS 관련 커뮤니티를 눈팅하던 중에<br>Google Quiklabs CLoud Jam이라는 프로그램을 알게 되었다.<br>한 마디로 정리하자면, Google Cloud의 서비스들을 Hands-on 형태로 강의하는게<br>Google Quiklabs 라는 프로그램인데,<br>한 달간 이 Quiklabs를 무제한으로 사용할 수 있게 해주는 이벤트였다. (구글 Korea 주관)</p><p>두근두근대는 마음으로, 1달 간의 Subscription (구독권 개념)을 Activate 하고,<br>첫 수강을 하게 되었는데, Hands-on 방식이 중간중간 관련된 내용을 학습하면,<br>관련 Quiz를 풀게 되고, 그 문제의 정답을 맞아야지만 다음으로 넘어갈 수 있는<br>신기한 시스템이었다. 느낀 점은, <strong>와! 진짜 학습효과가 대박이다.</strong> 라는 것!</p><p>정해진 시간 내에, 정보를 읽어내고, 그것에서 의미를 파악하고, 문제를 풀어가며<br>자기가 습득한 지식이 맞는 지를 단기간 안에 확인해 볼 수 있기 때문에,<br>정말 새로운 지식을 습득 하는 플랫폼은 이래야 하는 구나. 라는 걸 깨닫게 되었다.</p><p>다음은 간단한 첫 번째 Google Cloud Platform Introduction 및 Platform Service<br>사용 방법에 대한 Quiklabs를 캡쳐 한 것이다. 저작권 문제로 많이 캡쳐 하지는 못했다.</p><p><img src="/gallery/post/Qwiklabs/2.png" alt="GCP의 색은 White &amp; Blue"><br><img src="/gallery/post/Qwiklabs/3.png" alt="왼쪽 상단을 보면, 시간이 가고 있다! 째깍째깍"><br><img src="/gallery/post/Qwiklabs/4.png" alt="중간중간 퀴즈 형식으로 문제를 풀어야만 다음으로 진행 가능하다"><br><img src="/gallery/post/Qwiklabs/5.png" alt="다양한 API들을 확인할 수 있다"></p><p><img src="/gallery/post/Qwiklabs/qwiklab.png" alt="Quiklabs를 다 듣고나면 배지를 하나씩 준다"></p>]]></content:encoded>
+      
+      
+      <category domain="https://jesuisjavert.github.io/categories/GoogleCloud/">GoogleCloud</category>
+      
+      
+      <category domain="https://jesuisjavert.github.io/tags/Cloud/">Cloud</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/Google/">Google</category>
+      
+      <category domain="https://jesuisjavert.github.io/tags/Qwiklabs/">Qwiklabs</category>
+      
+      
+      <comments>https://jesuisjavert.github.io/2021/03/29/Google-Cloud-Qwiklabs/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>SSAFY 활동 정리 후 포트폴리오 만들기</title>
@@ -29,7 +62,7 @@
       
       
       
-      <content:encoded><![CDATA[<center><img src="/gallery/post/uc2.png"><br> 가슴으로 낳은 LoveLine 프로젝트</center><br><h2 id="나라는-사람을-다시-한-번-정리해보는-계기"><a href="#나라는-사람을-다시-한-번-정리해보는-계기" class="headerlink" title="나라는 사람을 다시 한 번 정리해보는 계기"></a>나라는 사람을 다시 한 번 정리해보는 계기</h2><p>요즘은 포트폴리오 정리를 하느라, 굉장히 바쁜 날들을 보냈다.<br>Github 자기소개를 작성하고, 진행했던 프로젝트들의 README를 (살벌하게) 작성했고,<br>그 안에 들어간 코드를 수정하고, 퍼블릭화 해도 되는 것인지 검토하고…<br>만들었던 소개영상들, 공식문서들과 UCC를 유튜브에 업로드하고..<br>나라는 사람을 돌아보는 시간을 가지면서, 자기반성과 뿌듯함을 동시에 느꼈다.</p><p><img src="/gallery/post/readmes.png" alt="진행했던 프로젝트들의 깃헙 README를 살벌하게 작성했다"></p><a id="more"></a><p><img src="/gallery/post/git1.png" alt="Github이 개발자의 얼굴이라면서요?"></p><h2 id="Portfolio-제작"><a href="#Portfolio-제작" class="headerlink" title="Portfolio 제작"></a>Portfolio 제작</h2><p>그리고 그 모든 걸 담은 ppt 하나를 만들기 위해 시간을 꽤 보냈다.<br>줄인다고 줄여봤지만, 핵심만 담은 슬라이드가 무려 30장 가까이 나오는 걸 보니,<br>개발자로 성장하기 위해 꼼수를 부리진 않았구나 싶어 뿌듯한 점을 많이 느꼈다.<br>(심지어 싸피 공통 프로젝트인 Apolio는 제외 시켰는데도 불구하고!)</p><p>작업은 미리캔버스 라는 PaaS 를 사용했고,<br>하이퍼링크 기능을 이용하기 위해서 DeftPDF 라는 프로그램도 같이 사용했다.<br>거의 3박 4일을 걸려 온갖 정성을 쏟아낸 포트폴리오. 애정이 많이 간다.</p><p><img src="/gallery/post/port.png"></p><p>링크는 요기!</p><p>Github READMEs :<br><a href="https://github.com/Jesuisjavert">https://github.com/Jesuisjavert</a><br><a href="https://github.com/Jesuisjavert/MODU">https://github.com/Jesuisjavert/MODU</a><br><a href="https://github.com/Jesuisjavert/LoveLine">https://github.com/Jesuisjavert/LoveLine</a><br><a href="https://github.com/Jesuisjavert/AWS-Traffic-Handling-Toy-Project">https://github.com/Jesuisjavert/AWS-Traffic-Handling-Toy-Project</a><br><a href="https://github.com/Jesuisjavert/Apolio">https://github.com/Jesuisjavert/Apolio</a></p><p>Portfolio :<br><a href="https://drive.google.com/file/d/1oE6KiIafoB9xDQQit--gzLBPakrh3m7Q/view"><img src="https://img.shields.io/static/v1?label=Portfolio&message=pdf&color=lightgrey&link=https://drive.google.com/file/d/1oE6KiIafoB9xDQQit--gzLBPakrh3m7Q/view" alt="Portfolio"></a></p>]]></content:encoded>
+      <content:encoded><![CDATA[<center><img src="/gallery/post/uc2.png"><br> 가슴으로 낳은 LoveLine 프로젝트</center><br><h2 id="나라는-사람을-다시-한-번-정리해보는-계기"><a href="#나라는-사람을-다시-한-번-정리해보는-계기" class="headerlink" title="나라는 사람을 다시 한 번 정리해보는 계기"></a>나라는 사람을 다시 한 번 정리해보는 계기</h2><p>요즘은 포트폴리오 정리를 하느라, 굉장히 바쁜 날들을 보냈다.<br>Github 자기소개를 작성하고, 진행했던 프로젝트들의 README를 (살벌하게) 작성했고,<br>그 안에 들어간 코드를 수정하고, 퍼블릭화 해도 되는 것인지 검토하고…<br>만들었던 소개영상들, 공식문서들과 UCC를 유튜브에 업로드하고..<br>나라는 사람을 돌아보는 시간을 가지면서, 자기반성과 뿌듯함을 동시에 느꼈다.</p><p><img src="/gallery/post/readmes.png" alt="진행했던 프로젝트들의 깃헙 README를 살벌하게 작성했다"></p><a id="more"></a><p><img src="/gallery/post/git1.png" alt="Github이 개발자의 얼굴이라면서요?"></p><h2 id="Portfolio-제작"><a href="#Portfolio-제작" class="headerlink" title="Portfolio 제작"></a>Portfolio 제작</h2><p>그리고 그 모든 걸 담은 ppt 하나를 만들기 위해 시간을 꽤 보냈다.<br>줄인다고 줄여봤지만, 핵심만 담은 슬라이드가 무려 30장 가까이 나오는 걸 보니,<br>개발자로 성장하기 위해 꼼수를 부리진 않았구나 싶어 뿌듯한 점을 많이 느꼈다.<br>(심지어 싸피 공통 프로젝트인 Apolio는 제외 시켰는데도 불구하고!)</p><p>작업은 미리캔버스 라는 PaaS 를 사용했고,<br>하이퍼링크 기능을 이용하기 위해서 DeftPDF 라는 프로그램도 같이 사용했다.<br>거의 3박 4일을 걸려 온갖 정성을 쏟아낸 포트폴리오. 애정이 많이 간다.</p><p><img src="/gallery/post/port.png" alt="Portfolio"></p><p>링크는 요기!</p><p>Github READMEs :<br><a href="https://github.com/Jesuisjavert">https://github.com/Jesuisjavert</a><br><a href="https://github.com/Jesuisjavert/MODU">https://github.com/Jesuisjavert/MODU</a><br><a href="https://github.com/Jesuisjavert/LoveLine">https://github.com/Jesuisjavert/LoveLine</a><br><a href="https://github.com/Jesuisjavert/AWS-Traffic-Handling-Toy-Project">https://github.com/Jesuisjavert/AWS-Traffic-Handling-Toy-Project</a><br><a href="https://github.com/Jesuisjavert/Apolio">https://github.com/Jesuisjavert/Apolio</a></p><p>Portfolio :<br><a href="https://drive.google.com/file/d/1oE6KiIafoB9xDQQit--gzLBPakrh3m7Q/view"><img src="https://img.shields.io/static/v1?label=Portfolio&message=pdf&color=lightgrey&link=https://drive.google.com/file/d/1oE6KiIafoB9xDQQit--gzLBPakrh3m7Q/view" alt="Portfolio"></a></p>]]></content:encoded>
       
       
       <category domain="https://jesuisjavert.github.io/categories/etc/">etc</category>
@@ -814,53 +847,6 @@ VPC를 설정 할 땐, 퍼블릭/프라이빗 영역설정이 중요하다
       
       
       <comments>https://jesuisjavert.github.io/2021/01/06/machinelearning-python3/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>머신러닝야학-Tensorflow (python) 핵심요약-1</title>
-      <link>https://jesuisjavert.github.io/2021/01/05/machinelearning-python2/</link>
-      <guid>https://jesuisjavert.github.io/2021/01/05/machinelearning-python2/</guid>
-      <pubDate>Tue, 05 Jan 2021 07:49:33 GMT</pubDate>
-      
-      <description>&lt;p&gt;&lt;img src=&quot;/gallery/post/ml.png&quot; alt=&quot;머신러닝 이 머선말이고?&quot;&gt;&lt;/p&gt;
-&lt;h2 id=&quot;Deel-Learning을-Tensorflow로-구현해보자&quot;&gt;&lt;a href=&quot;#Deel-Learning을-Tensorflow로-구현해보자&quot; class=&quot;headerlink&quot; title=&quot;Deel Learning을 Tensorflow로 구현해보자&quot;&gt;&lt;/a&gt;Deel Learning을 Tensorflow로 구현해보자&lt;/h2&gt;&lt;p&gt;Tensorflow로 주로 사용하는 Deep Learning Algorithm은&lt;br&gt;지도 학습(회귀, 분류)을 위한 5가지가 주로 쓰인다.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Decision Tree&lt;/li&gt;
-&lt;li&gt;Random Forest&lt;/li&gt;
-&lt;li&gt;KNN&lt;/li&gt;
-&lt;li&gt;SVM&lt;/li&gt;
-&lt;li&gt;Neural Network&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;이런 알고리즘을 구현하기 위한 라이브러리들도 여러가지가 있는데,&lt;br&gt;TensorFlow, PyTorch, Caffe2, theano 등이 있다.&lt;/p&gt;
-&lt;hr&gt;
-
-&lt;h2 id=&quot;머신러닝의-프로세스&quot;&gt;&lt;a href=&quot;#머신러닝의-프로세스&quot; class=&quot;headerlink&quot; title=&quot;머신러닝의 프로세스&quot;&gt;&lt;/a&gt;머신러닝의 프로세스&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;과거의 데이터를 준비한다.&lt;/li&gt;
-&lt;li&gt;데이터로 모델을 학습(Fit)한다.&lt;/li&gt;
-&lt;li&gt;모델의 구조를 만든다.&lt;/li&gt;
-&lt;li&gt;모델을 이용한다.&lt;hr&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<p><img src="/gallery/post/ml.png" alt="머신러닝 이 머선말이고?"></p><h2 id="Deel-Learning을-Tensorflow로-구현해보자"><a href="#Deel-Learning을-Tensorflow로-구현해보자" class="headerlink" title="Deel Learning을 Tensorflow로 구현해보자"></a>Deel Learning을 Tensorflow로 구현해보자</h2><p>Tensorflow로 주로 사용하는 Deep Learning Algorithm은<br>지도 학습(회귀, 분류)을 위한 5가지가 주로 쓰인다.</p><ol><li>Decision Tree</li><li>Random Forest</li><li>KNN</li><li>SVM</li><li>Neural Network</li></ol><p>이런 알고리즘을 구현하기 위한 라이브러리들도 여러가지가 있는데,<br>TensorFlow, PyTorch, Caffe2, theano 등이 있다.</p><hr><h2 id="머신러닝의-프로세스"><a href="#머신러닝의-프로세스" class="headerlink" title="머신러닝의 프로세스"></a>머신러닝의 프로세스</h2><ol><li>과거의 데이터를 준비한다.</li><li>데이터로 모델을 학습(Fit)한다.</li><li>모델의 구조를 만든다.</li><li>모델을 이용한다.<hr><a id="more"></a></li></ol><h2 id="Neural-Net-인공-신경망"><a href="#Neural-Net-인공-신경망" class="headerlink" title="Neural Net (인공 신경망)"></a>Neural Net (인공 신경망)</h2><p>사람의 두뇌를 동작하는 방법을 모방해서 기계가 학습할 수 있도록 고안된 Algorithm.</p><hr><h2 id="Pandas-Library"><a href="#Pandas-Library" class="headerlink" title="Pandas Library"></a>Pandas Library</h2><p>Python에서 대표적으로 표를 다루는 도구인 pandas 라이브러리를 통해 실습을 진행한다.<br>pandas의 간단한 사용법을 통해 표를 불러오고, Shape를 확인하고, 원하는 칼럼을 선택하고, 칼럼의 대표 머릿값을 출력하는 등의 기능을 수행할 수 있다.</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">파일 읽어오기: read_csv(<span class="string">&#x27;/경로/파일명.csv&#x27;</span>)</span><br><span class="line">모양 확인하기: 데이터.shape</span><br><span class="line">칼럼 선택하기: 데이터[[<span class="string">&#x27;칼럼명1&#x27;</span>, <span class="string">&#x27;칼럼명2&#x27;</span>, <span class="string">&#x27;칼럼명3&#x27;</span>]]</span><br><span class="line">칼럼 이름 출력하기: 데이터.columns</span><br><span class="line">맨 위 <span class="number">5</span>개 관측치 출력하기: 데이터.head()</span><br></pre></td></tr></table></figure><hr><h2 id="모델을-학습시켜-보자"><a href="#모델을-학습시켜-보자" class="headerlink" title="모델을 학습시켜 보자."></a>모델을 학습시켜 보자.</h2><p>생활코딩에서 제공하는 예제 코드는 다음과 같다.<br>각 주석 밑에 수업에서 제공하는 내용들을 첨가해서 설명을 각주로 달겠다.</p><p><img src="/gallery/post/tensorflow/tensorflow1.png" alt="머신러닝의 프로세스"></p><p>머신러닝의 프로세스의 단계를 지켜 코드를 짠다.<br>tensorflow의 오픈소스 신경만 라이브러리 중 하나인 keras를 사용한다.<br>Keras는 유저가 손쉽게 딥 러닝을 구현할 수 있도록 도와주는 상위 레벨의 인터페이스 혹은 API이다.</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">###########################</span></span><br><span class="line"><span class="comment"># 기본 라이브러리를 불러온다.</span></span><br><span class="line"><span class="keyword">import</span> tensorflow <span class="keyword">as</span> tf</span><br><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line"></span><br><span class="line"><span class="comment">###########################</span></span><br><span class="line"><span class="comment"># 데이터를 전처리한다.</span></span><br><span class="line">파일경로 = <span class="string">&#x27;https://raw.githubusercontent.com/blackdew/tensorflow1/master/csv/lemonade.csv&#x27;</span></span><br><span class="line">레모네이드 = pd.read_csv(파일경로)</span><br><span class="line">레모네이드.head()</span><br><span class="line"><span class="comment"># 데이터의 상위 5가지 관측치를 통해 잘 불러와지는지 확인한다</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment"># 종속변수, 독립변수</span></span><br><span class="line">독립 = 레모네이드[[<span class="string">&#x27;온도&#x27;</span>]]</span><br><span class="line">종속 = 레모네이드[[<span class="string">&#x27;판매량&#x27;</span>]]</span><br><span class="line">print(독립.shape, 종속.shape)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 원인과 결과를 입력한다.</span></span><br><span class="line"></span><br><span class="line"><span class="comment">###########################</span></span><br><span class="line"><span class="comment"># 모델을 만듭니다.</span></span><br><span class="line">X = tf.keras.layers.Input(shape=[<span class="number">1</span>])</span><br><span class="line">Y = tf.keras.layers.Dense(<span class="number">1</span>)(X)</span><br><span class="line">model = tf.keras.models.Model(X, Y)</span><br><span class="line">model.<span class="built_in">compile</span>(loss=<span class="string">&#x27;mse&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Tensorflow의 Keras 라이브러리의 Layer에 독립변수, 종속변수를 입력하는데 각각의 shape의 크기에 유의하여 입려개준다.</span></span><br><span class="line"></span><br></pre></td></tr></table></figure><hr><h3 id="Loss란"><a href="#Loss란" class="headerlink" title="Loss란?"></a>Loss란?</h3><p><img src="/gallery/post/tensorflow/tensorflow2.png" alt="Epoch의 횟수에 따른 Loss 감소"></p><p>Loss란 학습된 모델의 예측값과 실제 결과 사이의 차이점을 손쉽게 알아보기 위한 값으로,</p><p>Loss = (예측 - 결과)^2 의 평균</p><p>그래서 Loss 값이 0에 가까워 질 때, 학습이 잘 되고 있다는 증거이고, 학습을 반복해서 시킴으로써 Loss값을 줄일 수 있다.</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">###########################</span></span><br><span class="line"><span class="comment"># 모델을 학습시킵니다. </span></span><br><span class="line">model.fit(독립, 종속, epochs=<span class="number">10</span>)</span><br><span class="line">model.fit(독립, 종속, epochs=<span class="number">1000</span>, verbose=<span class="number">0</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">#학습을 시킬때 epochs 값을 조절해가며 학습의 횟수를 설정할 수 있다. verbose = 0을 입력하지 않으면 epoch를 한 번 할때마다 출력값을 반환하지만, verbose=0을 입력해두면 최종 결과값 만을 출력하므로 학습 횟수가 많을 땐, verbose=0 값을 걸어 둔다.</span></span><br><span class="line"></span><br><span class="line"><span class="comment">###########################</span></span><br><span class="line"><span class="comment"># 모델을 이용합니다. </span></span><br><span class="line">print(model.predict(독립))</span><br><span class="line">print(model.predict([[<span class="number">15</span>]]))</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="결과"><a href="#결과" class="headerlink" title="결과"></a>결과</h2><p><img src="/gallery/post/tensorflow/tensorflow3.png" alt="실제로 예측을 굉장히 잘 하는 것을 볼 수 있다."></p><p>본 실습의 경우엔 독립변수가 하나, 종속변수가 하나이기 때문에 굉장히 단순한 모델이라, 예측값이 실제값과 꽤 많이 비슷한 모델을 학습하는 것을 알 수 있었다.</p><hr><h2 id="출처"><a href="#출처" class="headerlink" title="출처"></a>출처</h2><hr>생활코딩 Deep Learning Tensorflow (python) 강의<p><a href="https://opentutorials.org/course/4570">https://opentutorials.org/course/4570</a></p><p>생활코딩의 딥러닝 교육컨텐츠는 CCL 라이선스 BY를 따르고 있습니다. </p>]]></content:encoded>
-      
-      
-      <category domain="https://jesuisjavert.github.io/categories/MachineLearning/">MachineLearning</category>
-      
-      <category domain="https://jesuisjavert.github.io/categories/MachineLearning/Python/">Python</category>
-      
-      <category domain="https://jesuisjavert.github.io/categories/MachineLearning/Python/Tensorflow/">Tensorflow</category>
-      
-      
-      <category domain="https://jesuisjavert.github.io/tags/MachineLearning/">MachineLearning</category>
-      
-      <category domain="https://jesuisjavert.github.io/tags/Python/">Python</category>
-      
-      <category domain="https://jesuisjavert.github.io/tags/Tensorflow/">Tensorflow</category>
-      
-      
-      <comments>https://jesuisjavert.github.io/2021/01/05/machinelearning-python2/#disqus_thread</comments>
       
     </item>
     
