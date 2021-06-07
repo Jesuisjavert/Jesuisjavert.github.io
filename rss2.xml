@@ -9,8 +9,40 @@
     <atom:link href="https://jesuisjavert.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>강동훈의 블로그에 오신 것을 환영합니다.</description>
-    <pubDate>Tue, 30 Mar 2021 06:32:18 GMT</pubDate>
+    <pubDate>Mon, 07 Jun 2021 13:44:09 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>ASMK 입사 후기</title>
+      <link>https://jesuisjavert.github.io/2021/06/06/asminternational/</link>
+      <guid>https://jesuisjavert.github.io/2021/06/06/asminternational/</guid>
+      <pubDate>Sun, 06 Jun 2021 10:53:20 GMT</pubDate>
+      
+        
+        
+      <description>&lt;center&gt;
+&lt;img src=&quot;/gallery/post/asm/logo.png&quot;&gt;&lt;br&gt;
+ASM International 의 로고. 로고가 굉장히 예쁘다.
+&lt;/center&gt;
+&lt;br&gt;
+
+&lt;h2 id=&quot;결국-ASMK&quot;&gt;&lt;a href=&quot;#결국-ASMK&quot;</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<center><img src="/gallery/post/asm/logo.png"><br>ASM International 의 로고. 로고가 굉장히 예쁘다.</center><br><h2 id="결국-ASMK"><a href="#결국-ASMK" class="headerlink" title="결국, ASMK"></a>결국, ASMK</h2><p>한동안 뜸 했었다. 그 이유는 ASMK 라는 회사에 입사하게 되었기 때문이다.</p><p>ASMK를 설명하자면 ‘네덜란드에 본사를 두고 있는 ASM International 이라는 반도체 장비 회사의<br>한국지부(Korea)’이다. 내 직함은 Software Engineer인데, 정확히는 SW팀의 QA 부서이다.<br>내가 받았던 Job Description을 요약하자면,</p><blockquote><ol><li>미국, 일본, 싱가폴, 한국 개발자들과 함께 PEALD(Plasma Emission Atomic Layer Desposition) 장비 Software 개발 과정 중 Quality Assurance 부분을 진행</li><li>다양한 시뮬레이션 환경에서의 SW 안정성 및 통합 기능테스트 검수 및 실제 장비 Real Tool Demo Test를 진행</li><li>QA Process를 자동화하는 Automation Tool 개발(C#)</li></ol></blockquote><p>무슨 소리인지 모르겠다고? 나도 면접 보는 당일까지 제대로 이해하지 못하고 면접을 봤던 것 같다ㅋㅋ<br>이제 입사한지 4주차, 조금씩 일을 배워가는 중이다.<br>입사하기 전엔, 반도체 공정에 대한 공부, 이사(광주-&gt;동탄), 집 정리, 지인들 약속 으로 바빴고,<br>입사하고 난 뒤엔, 업무 파악, 본사 HR 교육, OJT, 환영식, Integration Test 등으로 더욱 바빴다.</p><p>문과출신의 개발자인 나는 아르곤 가스의 특성이 무언지, 삼불화질소가 왜 필요한지,<br>플라즈마를 쏴서 프리커서를 왜 Purge 하는건지.. 수많은 약어들과 전문용어들의 홍수에서 헤엄쳐야 했고,<br>이를 극복하기 위해 반도체 공정을 공부하고, 장비 모듈의 수백개에 달하는 변수들을 암기하는 것에 총력을 기울이고 있다.</p><p>내가 공부해왔던 웹 개발이나 클라우드쪽 회사가 아님에도 불구하고, 이 회사가 마음에 드는 점이 참 많다.<br>지금까지 내가 느낀 우리 회사의 장점을 적어보겠다.</p><blockquote><ol><li>네카라쿠배 뺨치는 연봉 </li><li>자유롭고 편안한 분위기, 자율 복장, 유연한 출퇴근 시간 및 재택 근무 시스템</li><li>미국, 일본, 싱가폴, 홍콩의 개발자들과 매일 같이 소통하는 글로벌한 환경</li><li>나의 장점인 영어를 언제든 활용할 수 있고, 언제든 편하게 영어로 프리토킹하는 능력 있는 인재들이 많음</li><li>미래 산업의 핵심인 반도체라는 분야. 회사 자체도 매년마다 평균 20%의 성장을 거듭하고 있는 성장 산업</li><li>회사의 규모도 시가총액 17조, 매출 2조, 글로벌 직원 3천 명 정도의 이름 있는 글로벌 대기업이라는 점</li><li>출퇴근 차로 5분, 걸어서 25분. 출근할 땐 버스타고, 퇴근할 땐 운동 삼아 걸어 다닐 수 있음.</li><li>공휴일이 토요일이면 금요일에 쉬고, 일요일이면 월요일에 쉬는 Floating Holiday (대체 휴일 제도)</li><li>평소에 일찍 오라고 눈치 안주고, 야근하라고 눈치 안 줌. (유일하게 신경 쓰는 것은 SW Release 날짜 뿐)</li><li>점심 시간도 자유롭게 먹고 싶고 쉬고 싶은 만큼 여유 있게 먹고 와도 됨. (Meeting 시간과 겹치지만 않으면)</li><li>책임감 있게 자기 일만 잘하고, 기일만 맞추면 OK라서 중간중간 커피 타임이나, 잡담도 눈치 주지 않는 분위기</li><li>대부분 내 또래의 유능하고 능력있는 팀원들. 부장님들도 젊은 편.</li></ol></blockquote><p>일단은 여기까지.. 물론 세상에 완벽한 회사는 없겠지만 회사 분들이 보고 계실지도 모르니까 단점은 적지 않는걸로ㅋㅋㅋ</p><p>아무튼 그렇다. 아직까진 장점이 많이 보이는 회사라서, 열심히 다녀볼 생각이다.</p><p>물론 그럼에도 불구하고 사람의 욕심은 끝이 없어서, 최근 DKOS 라고 쿠버네티스 스터디도 시작했다.<br>열정은 넘치는 데도, 몸은 따라주지 않아서, 초반 시작이 조금 삐그덕 했지만, 꾸준히 잘해내고 싶다.<br>요즘 매일 컴퓨터 바탕화면에 띄워놓고 매일 읽는 문구가 한 줄 있다.</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Cet enseignement, c&#39;est qu&#39;il faut vivre comme on pense,</span><br><span class="line">sinon, tôt ou tard, on finit par penser comme on a vécu. &#x2F; Paul Bourget</span><br></pre></td></tr></table></figure><p>직역하면, <strong>그 가르침이란, 우리가 생각하는 대로 살아야 한다는 것이다. 그렇지 않으면, 이르던 늦던 간에, 우리는 살아온 대로 생각함에 멈추게 된다.</strong> 라는 뜻이다.</p><p>굽이 굽이 치듯 매 순간에 열심히 하자는 생각을 갖고 살아왔고, 비전 있는 분야로 계속 더 나아가고 싶은 마음은 변함이 없다.<br>다만, 큰 욕심과 이상 때문에 요즘 여러 군데에서 삐그덕 거리는 내 모습을 보게 된다.<br>ANOS 학습 포스팅도 밀리고, 쿠버네티스 분야 예습도, C#(.Net Framework 학습) 및 클론코딩 학습도 진행상황이 잔뜩 삐그덕 거리고 있는데,<br>오늘은 다행히 Floating Holiday를 맞아 내 자신을 정리하는 시간을 좀 보낼 수 있었다.</p><p>앞으로도, ‘생각하는 대로 살기위해’ 노력하는 Javert가 되어야 겠다. 빠-밤.</p>]]></content:encoded>
+      
+      
+      <category domain="https://jesuisjavert.github.io/categories/ASM/">ASM</category>
+      
+      
+      <category domain="https://jesuisjavert.github.io/tags/ASM/">ASM</category>
+      
+      
+      <comments>https://jesuisjavert.github.io/2021/06/06/asminternational/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>2021 Google Cloud Qwiklabs 참가 후기</title>
@@ -815,39 +847,6 @@ VPC를 설정 할 땐, 퍼블릭/프라이빗 영역설정이 중요하다
       
       
       <comments>https://jesuisjavert.github.io/2021/01/07/machinelearning-python4/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>머신러닝야학-Tensorflow (python) 핵심요약-2</title>
-      <link>https://jesuisjavert.github.io/2021/01/06/machinelearning-python3/</link>
-      <guid>https://jesuisjavert.github.io/2021/01/06/machinelearning-python3/</guid>
-      <pubDate>Wed, 06 Jan 2021 03:49:33 GMT</pubDate>
-      
-      <description>&lt;h2 id=&quot;독립변수와-종속변수가-여럿인-예제-보스턴-집값-예측&quot;&gt;&lt;a href=&quot;#독립변수와-종속변수가-여럿인-예제-보스턴-집값-예측&quot; class=&quot;headerlink&quot; title=&quot;독립변수와 종속변수가 여럿인 예제 (보스턴 집값 예측)&quot;&gt;&lt;/a&gt;독립변수와 종속변수가 여럿인 예제 (보스턴 집값 예측)&lt;/h2&gt;&lt;h3 id=&quot;중앙값-Median-Value-란&quot;&gt;&lt;a href=&quot;#중앙값-Median-Value-란&quot; class=&quot;headerlink&quot; title=&quot;중앙값 (Median Value)란?&quot;&gt;&lt;/a&gt;중앙값 (Median Value)란?&lt;/h3&gt;&lt;p&gt;해당 지역 주택 값 중에 가장 가운데에 있는 값 (Range List 중 중앙 인덱스 값)&lt;/p&gt;
-&lt;p&gt;일반적으론 평균값이 집단을 대표하는 숫자로 많이 사용되지만, 평균값의 표준편차가 너무 커서, 평균의 대표성을 무너뜨리는 이상치(Outlier)가 평균을 왜곡시킬때, 중앙값을 많이 사용함.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/gallery/post/tensorflow/tensorflow4.png&quot; alt=&quot;Machine Learning으로 여러 독립변수가 하나의 종속변수에 영향을 미치는 가중치를 공식화 할 수 있다!&quot;&gt;&lt;/p&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<h2 id="독립변수와-종속변수가-여럿인-예제-보스턴-집값-예측"><a href="#독립변수와-종속변수가-여럿인-예제-보스턴-집값-예측" class="headerlink" title="독립변수와 종속변수가 여럿인 예제 (보스턴 집값 예측)"></a>독립변수와 종속변수가 여럿인 예제 (보스턴 집값 예측)</h2><h3 id="중앙값-Median-Value-란"><a href="#중앙값-Median-Value-란" class="headerlink" title="중앙값 (Median Value)란?"></a>중앙값 (Median Value)란?</h3><p>해당 지역 주택 값 중에 가장 가운데에 있는 값 (Range List 중 중앙 인덱스 값)</p><p>일반적으론 평균값이 집단을 대표하는 숫자로 많이 사용되지만, 평균값의 표준편차가 너무 커서, 평균의 대표성을 무너뜨리는 이상치(Outlier)가 평균을 왜곡시킬때, 중앙값을 많이 사용함.</p><p><img src="/gallery/post/tensorflow/tensorflow4.png" alt="Machine Learning으로 여러 독립변수가 하나의 종속변수에 영향을 미치는 가중치를 공식화 할 수 있다!"></p><a id="more"></a><hr><h2 id="보스턴-집값-모델-딥러닝-프로세스"><a href="#보스턴-집값-모델-딥러닝-프로세스" class="headerlink" title="보스턴 집값 모델 딥러닝 프로세스"></a>보스턴 집값 모델 딥러닝 프로세스</h2><p><img src="/gallery/post/tensorflow/tensorflow5.png" alt="보스턴 집값 예측 모델의 딥러닝 프로세스. 종속변수와 독립변수의 값을 입력한다."></p><p>보스턴 집값 예측 모델은 하나의 종속변수를 에측하기 위해 13개의 독립변수를 사용한다. </p><p>이런식으로 여러 독립변수가 목표한 종속변수에 미치는 영향을 분석하는 모형을 <strong>퍼셉트론</strong>이라고 부르고,각각의 변수(뉴런)가 종속변수에 미치는 영향력의 비율을 <strong>가중치</strong>라고 부른다. </p><p>각각의 뉴런으로 입력된 모든 값을 다 더한 다음(가중합)에 이 값에 더 해주는 상수를 <strong>편향</strong>이라고 한다.</p><p>즉, 하나의 뉴런에서 활성화 함수를 거쳐 최종적으로 편향을 더해야 예측값이 출력된다고 볼 수 있다.</p><hr><h2 id="퍼셉트론-가중치-편향"><a href="#퍼셉트론-가중치-편향" class="headerlink" title="퍼셉트론, 가중치, 편향"></a>퍼셉트론, 가중치, 편향</h2><p><img src="/gallery/post/tensorflow/tensorflow6.png" alt="퍼셉트론, 가중치와 편향"></p><hr><p>예제 코드는 레모네이드 예제와 거의 비슷하므로 생략한다. 추가로, get_weight 메소드를 통해<br>머신러닝이 학습한 가중치와 편향값을 알아볼 수 있다.</p><p><img src="/gallery/post/tensorflow/tensorflow7.png" alt="가중치를 확인시켜주는 get_weights 메소드"></p><hr><p>생활코딩에선 이러한 딥러닝이 이루어지는 과정을 직접 실행해 보는 워크북을 제공한다.</p><p><img src="/gallery/post/tensorflow/tensorflow8.png" alt="현재의 Loss 값과 이전의 Loss 값을 비교해가며 가중치의 +- 값을 대입해 학습한다"></p><p>가중치를 미분해가며 근사값을 대입해 가는 방식으로 딥러닝이 이루어지는데,<br>Learning Rate는 따로 정해진 값이 아니라, 학습을 반복하면서 적절한 값을 컴퓨터가 선택하게 된다.</p><hr><h2 id="출처"><a href="#출처" class="headerlink" title="출처"></a>출처</h2><hr>생활코딩 Deep Learning Tensorflow (python) 강의<p><a href="https://opentutorials.org/course/4570">https://opentutorials.org/course/4570</a></p><p>생활코딩의 딥러닝 교육컨텐츠는 CCL 라이선스 BY를 따르고 있습니다. </p>]]></content:encoded>
-      
-      
-      <category domain="https://jesuisjavert.github.io/categories/MachineLearning/">MachineLearning</category>
-      
-      <category domain="https://jesuisjavert.github.io/categories/MachineLearning/Python/">Python</category>
-      
-      <category domain="https://jesuisjavert.github.io/categories/MachineLearning/Python/Tensorflow/">Tensorflow</category>
-      
-      
-      <category domain="https://jesuisjavert.github.io/tags/MachineLearning/">MachineLearning</category>
-      
-      <category domain="https://jesuisjavert.github.io/tags/Python/">Python</category>
-      
-      <category domain="https://jesuisjavert.github.io/tags/Tensorflow/">Tensorflow</category>
-      
-      
-      <comments>https://jesuisjavert.github.io/2021/01/06/machinelearning-python3/#disqus_thread</comments>
       
     </item>
     
